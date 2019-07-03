@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public GameObject Shuriken;
+    public GameObject shurikens;
     Rigidbody2D myRB;
     SpriteRenderer myRenderer;
     Animator myAnim;
@@ -30,6 +32,11 @@ public class PlayerController : MonoBehaviour
         
     void Update()
     {
+        if(Input.GetKeyDown (KeyCode.C))
+        {
+            GameObject shuri = (GameObject)Instantiate(Shuriken);
+            shuri.transform.position = shurikens.transform.position;
+        }
         if(grounded && Input.GetAxis("Jump") > 0)
         {
             myAnim.SetBool("isGrounded", false);
