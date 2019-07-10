@@ -7,11 +7,13 @@ public class PlayerController : MonoBehaviour
 {
     public GameObject Shuriken;
     public GameObject shurikens;
+
     Rigidbody2D myRB;
     SpriteRenderer myRenderer;
     Animator myAnim;
+    public Vector2 moveInput;
 
-    bool facingRight = true;
+    public  bool facingRight = true;
 
     //move
     public float maxSpeed;
@@ -32,16 +34,16 @@ public class PlayerController : MonoBehaviour
         
     void Update()
     {
-        if(Input.GetKeyDown (KeyCode.C))
+        if (Input.GetKeyDown(KeyCode.C))
         {
             GameObject shuri = (GameObject)Instantiate(Shuriken);
             shuri.transform.position = shurikens.transform.position;
         }
-        if(grounded && Input.GetAxis("Jump") > 0)
+        if (grounded && Input.GetAxis("Jump") > 0)
         {
             myAnim.SetBool("isGrounded", false);
             myRB.velocity = new Vector2(myRB.velocity.x, 0f);
-            myRB.AddForce(new Vector2(0, jumpPower),ForceMode2D.Impulse);
+            myRB.AddForce(new Vector2(0, jumpPower), ForceMode2D.Impulse);
             grounded = false;
         }
 
@@ -52,17 +54,18 @@ public class PlayerController : MonoBehaviour
 
 
         if (move > 0 && !facingRight)
-            Flip();         
+            Flip();
         else if (move < 0 && facingRight)
-                Flip();
+            Flip();
 
-            myRB.velocity = new Vector2(move * maxSpeed, myRB.velocity.y);
-            myAnim.SetFloat("MoveSpeed", Mathf.Abs(move));       
+        myRB.velocity = new Vector2(move * maxSpeed, myRB.velocity.y);
+        myAnim.SetFloat("MoveSpeed", Mathf.Abs(move));
     }
 
     void Flip()
     {
         facingRight = !facingRight;
         myRenderer.flipX = !myRenderer.flipX;
-    }    
+    } 
+
 }

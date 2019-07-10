@@ -7,17 +7,15 @@ using UnityEngine.UI;
 public class PlayerInventory : MonoBehaviour
 {
     public Text scoreRings;
-    public Text scoreCherry;
+    
     
     
     int Rings = 0;
-    int Cherry = 0;
-    int totalScore = 0;    
+          
 
     void Start()
     {
         scoreRings.text = Rings.ToString();
-        scoreCherry.text = Cherry.ToString();        
     }
 
     //Unfortunately I'm still not able to create an one time totalScore function that using the same methods
@@ -29,15 +27,9 @@ public class PlayerInventory : MonoBehaviour
         scoreRings.text = Rings.ToString();       
     }
 
-    public void AddCherry()
-    {
-        Cherry++;
-        scoreCherry.text = Cherry.ToString();
-    }
-
     public void TotalScore(int totalScore)
     {
-        totalScore = Cherry + Rings;
+        totalScore =Rings;
 
         if (totalScore >= 35)
         {

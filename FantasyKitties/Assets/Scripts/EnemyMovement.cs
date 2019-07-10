@@ -6,8 +6,12 @@ public class EnemyMovement : MonoBehaviour
 {
     Animator enemyRuns;
 
+    public GameObject EnemyBullet;
     public float enemyAccel;
     public float maxSpeed = 20f;
+ 
+
+   
 
     public float chargeTime;
     float startChargeTime;
@@ -22,7 +26,7 @@ public class EnemyMovement : MonoBehaviour
     
     // Start is called before the first frame update
     void Start()
-    {
+    {        
         enemyTransform = GetComponent<Transform>();
         enemyRB = GetComponent<Rigidbody2D>();
         enemyRuns = GetComponentInChildren<Animator>();
@@ -43,6 +47,8 @@ public class EnemyMovement : MonoBehaviour
             enemyRuns.SetBool("isCharging", charging);
 
         }
+
+      
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -61,8 +67,18 @@ public class EnemyMovement : MonoBehaviour
             charging = true;
             startChargeTime = Time.time + chargeTime;
         }
+        if(collision.tag == "shurikens")
+        {
+            //Destroy(collision.gameObject);
+            //EnemyHealth = EnemyHealth - 0.5f;
+            //if (EnemyHealth == 0)
+            //{
+            //    enemyDeath.SetActive(true);
+            //    //Destroy(gameObject);
+            //}
+        }
     }
-
+    
     private void OnTriggerStay2D(Collider2D collision)
     {
         if(collision.tag =="Player")

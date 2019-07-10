@@ -5,14 +5,15 @@ using UnityEngine;
 public class CherryController : MonoBehaviour
 {
     public GameObject Cherryreward;
+    public float healthAmount;
 
     void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Player")
         {
             Instantiate(Cherryreward, transform.position, Quaternion.identity);            
-            collision.gameObject.GetComponent<PlayerInventory>().AddCherry();            
-            Destroy(gameObject.transform.root.gameObject);
+            Destroy(gameObject.transform.gameObject);
+            collision.GetComponent<PlayerHealth>().AddHealth(healthAmount);
         }
     }
     void Update()

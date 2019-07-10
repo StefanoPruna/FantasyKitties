@@ -45,6 +45,12 @@ public class PlayerHealth : MonoBehaviour
         damaged = false;
     }
 
+    public void AddHealth(float healthAmount)
+    {        
+        currentHealth += healthAmount;
+        damageSlider.fillAmount = 1 - currentHealth / fullHealth;
+    }
+
     public void addDamage(float damage)
     {
         if (damage <= 0)

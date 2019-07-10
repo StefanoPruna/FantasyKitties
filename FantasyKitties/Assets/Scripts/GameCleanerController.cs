@@ -17,7 +17,7 @@ public class GameCleanerController : MonoBehaviour
 
     public void RestartGame()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Level_1");
     }
 
     public void StopGame()

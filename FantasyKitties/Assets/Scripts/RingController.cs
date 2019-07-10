@@ -14,7 +14,7 @@ public class RingController : MonoBehaviour
             Instantiate(reward, transform.position, Quaternion.identity);
             Instantiate(sparkle, transform.position, Quaternion.identity);
             collision.gameObject.GetComponent<PlayerInventory>().AddRings();            
-            Destroy(gameObject.transform.root.gameObject);
+            Destroy(gameObject.transform.gameObject);
         }        
     }
 }

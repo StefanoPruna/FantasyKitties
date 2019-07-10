@@ -65,7 +65,9 @@
     <Compile Include="Assets\Scripts\CherryReward.cs" />
     <Compile Include="Assets\Scripts\Destroy.cs" />
     <Compile Include="Assets\Scripts\EnemyDamage.cs" />
+    <Compile Include="Assets\Scripts\EnemyGun.cs" />
     <Compile Include="Assets\Scripts\EnemyMovement.cs" />
+    <Compile Include="Assets\Scripts\EnemyWeapons.cs" />
     <Compile Include="Assets\Scripts\Follows.cs" />
     <Compile Include="Assets\Scripts\GameCleanerController.cs" />
     <Compile Include="Assets\Scripts\MenuManager.cs" />

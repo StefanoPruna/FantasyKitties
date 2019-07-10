@@ -11,6 +11,7 @@ public class Follows : MonoBehaviour
 
     void Update()
     {
+        if(Player != null)
         transform.position = new Vector3(Player.position.x, offset, -1);
     }
 }
