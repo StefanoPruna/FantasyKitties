@@ -6,7 +6,8 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public GameObject Shuriken;
-    public GameObject shurikens;
+   // public GameObject shurikens;
+    public Transform shurikens;
 
     Rigidbody2D myRB;
     SpriteRenderer myRenderer;
@@ -36,8 +37,9 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.C))
         {
-            GameObject shuri = (GameObject)Instantiate(Shuriken);
+            GameObject shuri = Instantiate(Shuriken, shurikens.position, shurikens.rotation);//(GameObject)Instantiate(Shuriken);
             shuri.transform.position = shurikens.transform.position;
+
         }
         if (grounded && Input.GetAxis("Jump") > 0)
         {
@@ -64,8 +66,9 @@ public class PlayerController : MonoBehaviour
 
     void Flip()
     {
-        facingRight = !facingRight;
-        myRenderer.flipX = !myRenderer.flipX;
+        facingRight = !facingRight;        
+        //myRenderer.flipX = !myRenderer.flipX;
+        transform.Rotate(0f, 180f, 0f);
     } 
 
 }

@@ -9,9 +9,13 @@ public class EnemyMovement : MonoBehaviour
     public GameObject EnemyBullet;
     public float enemyAccel;
     public float maxSpeed = 20f;
- 
 
-   
+    public AudioClip playerDamaged;
+    AudioSource playerAudioSource;
+
+    public float enemyHealth;
+    float currentHealth;
+
 
     public float chargeTime;
     float startChargeTime;
@@ -29,7 +33,9 @@ public class EnemyMovement : MonoBehaviour
     {        
         enemyTransform = GetComponent<Transform>();
         enemyRB = GetComponent<Rigidbody2D>();
-        enemyRuns = GetComponentInChildren<Animator>();
+        enemyRuns = GetComponentInChildren<Animator>();        
+        playerAudioSource = GetComponent<AudioSource>();
+        currentHealth = enemyHealth;
     }
 
     // Update is called once per frame
@@ -45,10 +51,7 @@ public class EnemyMovement : MonoBehaviour
             if (!facingRight) enemyRB.AddForce(new Vector2(-1f, 0f) * enemyAccel);
             else enemyRB.AddForce(new Vector2(1f, 0f) * enemyAccel);
             enemyRuns.SetBool("isCharging", charging);
-
         }
-
-      
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -67,15 +70,17 @@ public class EnemyMovement : MonoBehaviour
             charging = true;
             startChargeTime = Time.time + chargeTime;
         }
-        if(collision.tag == "shurikens")
+
+        if (collision.tag == "shurikens")
         {
-            //Destroy(collision.gameObject);
-            //EnemyHealth = EnemyHealth - 0.5f;
-            //if (EnemyHealth == 0)
-            //{
-            //    enemyDeath.SetActive(true);
-            //    //Destroy(gameObject);
-            //}
+            currentHealth = enemyHealth - 1f;
+            print(enemyHealth);
+            playerAudioSource.PlayOneShot(playerDamaged);
+            if (currentHealth <= 0)
+            {
+                playerAudioSource.PlayOneShot(playerDamaged);
+                GetComponent<Flame>();
+            }
         }
     }
     
@@ -84,7 +89,7 @@ public class EnemyMovement : MonoBehaviour
         if(collision.tag =="Player")
         {
             charging = true;
-        }
+        }         
     }
 
     private void OnTriggerExit2D(Collider2D collision)

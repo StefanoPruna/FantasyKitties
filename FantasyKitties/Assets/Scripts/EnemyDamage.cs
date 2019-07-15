@@ -4,14 +4,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyDamage : MonoBehaviour
-{
-    public GameObject enemyDeath;
+{    
     public float damage;
     public float damageRate;
     public float pushBackForce;
 
-    float nextDamage;
-    public float EnemyHealth;
+    float nextDamage;    
+    private object collision;    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -41,14 +41,5 @@ public class EnemyDamage : MonoBehaviour
     internal void OnTriggerStay2D(Collision2D collision2D, object other)
     {
         throw new NotImplementedException();
-    }
-    public void AddDamage()
-    {
-       if (EnemyHealth == 0)
-        {
-            Debug.Log("enemyDeath");
-            enemyDeath.SetActive(true);
-            Destroy(gameObject.transform.root.gameObject);
-        }
-    }
+    }    
 }

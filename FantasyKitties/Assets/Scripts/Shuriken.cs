@@ -7,6 +7,7 @@ public class Shuriken : MonoBehaviour
 {
     private GameObject player;
     float speed;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -18,20 +19,8 @@ public class Shuriken : MonoBehaviour
     void Update()
     {
         Vector2 position = transform.position;
-        if(player.GetComponent<PlayerController>().facingRight)        
-            position = new Vector2(position.x + speed * Time.deltaTime, position.y);
-
-
-        transform.position = position;
-        transform.Rotate (new Vector3 (0, 0, -360) * Time.deltaTime);        
-    }
-
-    void OnTriggerEnter2D(Collider2D collision)
-    {
-       if (collision.tag == "Enemy")
-        {
-            Destroy(gameObject.transform.gameObject);
-            collision.GetComponent<EnemyDamage>().AddDamage();
-        }
+        position = new Vector2(position.x + speed * Time.deltaTime, position.y);            
+        transform.position = position;        
+        transform.Rotate(new Vector3(0, 0, -360) * Time.deltaTime);
     }
 }

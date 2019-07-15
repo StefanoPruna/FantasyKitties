@@ -170,7 +170,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Shuriken: {fileID: 5355313192812616460, guid: d1e3540816e515c4c8cb4af45dac909a,
     type: 3}
-  shurikens: {fileID: 0}
+  shurikens: {fileID: 781507658133297434}
   moveInput: {x: 0, y: 0}
   facingRight: 1
   maxSpeed: 5
@@ -515,6 +515,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7717154429326073387, guid: 226f0ef92a8f03b409b3f52dea419204,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 226f0ef92a8f03b409b3f52dea419204, type: 3}

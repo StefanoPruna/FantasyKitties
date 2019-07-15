@@ -4,16 +4,21 @@ using UnityEngine;
 public class RandomSprite : MonoBehaviour
 {
     public Sprite[] sprites;
+    //Sprite[] is an array
+    public int currentSprite = -1;
 
-    // Start is called before the first frame update
     void Start()
     {
-        GetComponent<SpriteRenderer>().sprite = sprites [Random.Range(0, sprites.Length)];
-    }
+        if (currentSprite == -1)
+        {
+            currentSprite = Random.Range(0, sprites.Length);
+        }
+        else if (currentSprite > sprites.Length)
+        {
+            currentSprite = sprites.Length - 1;
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        GetComponent<SpriteRenderer>().sprite = sprites[currentSprite];
+
     }
 }
