@@ -10,11 +10,11 @@ public class EnemyMovement : MonoBehaviour
     public float enemyAccel;
     public float maxSpeed = 20f;
 
-    public AudioClip playerDamaged;
-    AudioSource playerAudioSource;
+    //public AudioClip playerDamaged;
+    //AudioSource playerAudioSource;
 
-    public float enemyHealth;
-    float currentHealth;
+    //public float enemyHealth;
+    //float currentHealth;
 
 
     public float chargeTime;
@@ -34,8 +34,8 @@ public class EnemyMovement : MonoBehaviour
         enemyTransform = GetComponent<Transform>();
         enemyRB = GetComponent<Rigidbody2D>();
         enemyRuns = GetComponentInChildren<Animator>();        
-        playerAudioSource = GetComponent<AudioSource>();
-        currentHealth = enemyHealth;
+        //playerAudioSource = GetComponent<AudioSource>();
+        //currentHealth = enemyHealth;
     }
 
     // Update is called once per frame
@@ -71,17 +71,17 @@ public class EnemyMovement : MonoBehaviour
             startChargeTime = Time.time + chargeTime;
         }
 
-        if (collision.tag == "shurikens")
-        {
-            currentHealth = enemyHealth - 1f;
-            print(enemyHealth);
-            playerAudioSource.PlayOneShot(playerDamaged);
-            if (currentHealth <= 0)
-            {
-                playerAudioSource.PlayOneShot(playerDamaged);
-                GetComponent<Flame>();
-            }
-        }
+        //if (collision.tag == "shurikens")
+        //{
+        //    currentHealth = enemyHealth - 1f;
+        //    print(enemyHealth);
+        //    playerAudioSource.PlayOneShot(playerDamaged);
+        //    if (currentHealth <= 0)
+        //    {
+        //        playerAudioSource.PlayOneShot(playerDamaged);
+        //        GetComponent<Flame>();
+           // }
+        //}
     }
     
     private void OnTriggerStay2D(Collider2D collision)

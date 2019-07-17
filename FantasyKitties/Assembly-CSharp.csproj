@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\EnemyMovement.cs" />
     <Compile Include="Assets\Scripts\EnemyWeapons.cs" />
     <Compile Include="Assets\Scripts\Flame.cs" />
+    <Compile Include="Assets\Scripts\FloatEffect.cs" />
     <Compile Include="Assets\Scripts\Follows.cs" />
     <Compile Include="Assets\Scripts\GameCleanerController.cs" />
     <Compile Include="Assets\Scripts\MenuManager.cs" />

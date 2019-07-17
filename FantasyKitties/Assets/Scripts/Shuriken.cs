@@ -20,7 +20,8 @@ public class Shuriken : MonoBehaviour
     {
         Vector2 position = transform.position;
         position = new Vector2(position.x + speed * Time.deltaTime, position.y);            
-        transform.position = position;        
+        transform.position = position;  
+       
         transform.Rotate(new Vector3(0, 0, -360) * Time.deltaTime);
     }
 }
