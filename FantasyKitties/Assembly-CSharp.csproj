@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\FloatEffect.cs" />
     <Compile Include="Assets\Scripts\Follows.cs" />
     <Compile Include="Assets\Scripts\GameCleanerController.cs" />
+    <Compile Include="Assets\Scripts\GravityHole.cs" />
     <Compile Include="Assets\Scripts\MenuManager.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PlayerHealth.cs" />

@@ -12,6 +12,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: EvilMouse
       objectReference: {fileID: 0}
+    - target: {fileID: 416063445606983823, guid: d317437a25b0e8148a13dee1c0e7234d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 416063445606983822, guid: d317437a25b0e8148a13dee1c0e7234d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -89,6 +94,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 416063445142905312, guid: d317437a25b0e8148a13dee1c0e7234d,
         type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416063445142905312, guid: d317437a25b0e8148a13dee1c0e7234d,
+        type: 3}
       propertyPath: m_Name
       value: MouseAnimated
       objectReference: {fileID: 0}
@@ -103,6 +113,11 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 4cd5112dc5d429f4fb2d2247e794a438, type: 2}
+    - target: {fileID: 416063444843022276, guid: d317437a25b0e8148a13dee1c0e7234d,
+        type: 3}
+      propertyPath: pushBackForce
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 416063444843022277, guid: d317437a25b0e8148a13dee1c0e7234d,
         type: 3}
       propertyPath: m_Offset.x
@@ -117,11 +132,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Radius
       value: 0.23007365
-      objectReference: {fileID: 0}
-    - target: {fileID: 416063444843022276, guid: d317437a25b0e8148a13dee1c0e7234d,
-        type: 3}
-      propertyPath: pushBackForce
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d317437a25b0e8148a13dee1c0e7234d, type: 3}

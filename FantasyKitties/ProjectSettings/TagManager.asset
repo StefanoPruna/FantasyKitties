@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Enemy
   - shurikens
+  - Hole
+  - HoleCheck
   layers:
   - Default
   - TransparentFX
@@ -16,7 +18,7 @@ TagManager:
   - 
   - 
   - Ground
-  - 
+  - HoleCheck
   - 
   - 
   - 
