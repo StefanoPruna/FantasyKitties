@@ -6,33 +6,40 @@ public class EnemyHealth : MonoBehaviour
 {
     public AudioClip playerDamaged;
     AudioSource playerAudioSource;
+    public AudioClip explosion;
+    AudioSource deathAudioSource;
 
     public float enemyHealth;
     float currentHealth;
-
-    bool damaged;
         
     void Start()
     {
         currentHealth = enemyHealth;
         playerAudioSource = GetComponent<AudioSource>();
+        deathAudioSource = GetComponent<AudioSource>();
     }
 
-   
+
     void Update()
     {
-        if (damaged)
+    }
+    private void OnTriggerEnter2d(Collider2D collision)
+    {     
+        if (collision.tag == "shurikens")
         {
-            currentHealth = enemyHealth - 1;
+            playerAudioSource.PlayOneShot(playerDamaged);
+            currentHealth = enemyHealth - 1f;
+            print(currentHealth);
+            
         }
-        damaged = true;
     }
 
     public void EnemyDeath()
     {
-        if(currentHealth <= 0)
+        if(currentHealth < 0)
         {
             Destroy(gameObject);
+            deathAudioSource.PlayOneShot(explosion);
         }
     }
 }

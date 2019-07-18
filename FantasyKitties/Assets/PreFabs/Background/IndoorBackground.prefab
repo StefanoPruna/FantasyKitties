@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4344339203040698814}
   - component: {fileID: 431581035955552651}
-  m_Layer: 0
+  - component: {fileID: 4093698157300797536}
+  m_Layer: 8
   m_Name: IndoorBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79,3 +80,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &4093698157300797536
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156883142172157745}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -7.4760475, y: -3.052258}
+  - {x: 7.7779236, y: -3.0858}

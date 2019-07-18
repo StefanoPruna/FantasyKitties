@@ -15,9 +15,10 @@ GameObject:
   - component: {fileID: 818189136115744879}
   - component: {fileID: 818189136115744880}
   - component: {fileID: 818189136115744881}
+  - component: {fileID: 6338743030679650874}
   m_Layer: 0
   m_Name: EnemyDeath
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -164,8 +165,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 6265ad47218321143879ae19e1f4ba50, type: 3}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 0fe30add41726d946b84f3d4f375e339, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -250,3 +251,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &6338743030679650874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818189136115744878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faef701408836e749b58c9d4e70eb56d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyDeath: {fileID: 818189136115744880}
+  totalDebris: 10
+  playerDamaged: {fileID: 8300000, guid: e4e8483e3c6050d4790b560d2f68f0ec, type: 3}
+  death: {fileID: 8300000, guid: 0fe30add41726d946b84f3d4f375e339, type: 3}
+  enemyHealth: 0

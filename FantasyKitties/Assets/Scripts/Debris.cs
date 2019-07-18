@@ -23,7 +23,7 @@ public class Debris : MonoBehaviour
         t += Time.deltaTime;
         renderer2D.material.color = Color.Lerp(start, end, t / 2);
 
-        if(renderer2D.material.color.a <= 0f)
+        if (renderer2D.material.color.a <= 0f)
         {
             Destroy(gameObject);
         }

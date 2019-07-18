@@ -20,15 +20,16 @@ public class GravityHole : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "Player") //|| collision.tag == "Enemy")
+        if(collision.tag == "Player" || collision.tag == "Enemy")
         {
-            SetAllColliderStatus(false, collision.transform);                         
+            GetComponent<BoxCollider2D>().enabled = false;
+                                    
         }        
     }
 
     public void SetAllColliderStatus (bool active, Transform transform)
     {
-        foreach(Collider2D c in transform.GetComponents<Collider2D>())
+        foreach(BoxCollider2D c in transform.GetComponents<BoxCollider2D>())
         {
             c.enabled = active;
         }
@@ -36,9 +37,9 @@ public class GravityHole : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.tag == "Player") //|| collision.tag == "Enemy")
+        if (collision.tag == "Player" || collision.tag == "Enemy")
         {
-            SetAllColliderStatus(true, collision.transform);
+            GetComponent<BoxCollider2D>().enabled = true;
         }
     }
 }
