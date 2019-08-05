@@ -60,9 +60,9 @@ public class Flame : MonoBehaviour
             //    //body2D.AddForce(Vector3.right * Random(-1000, 1000));
             //    //body2D.AddForce(Vector3.up * Random.Range(500, 2000));
             //}
-            
-                Destroy(gameObject);
-                enemyAudioSource.PlayOneShot(death);            
+            Instantiate(enemyDeathFX); //, transform.position, transform.rotation);
+            Destroy(gameObject);
+            enemyAudioSource.PlayOneShot(death);            
         }
     }
 }

@@ -4306,7 +4306,7 @@ PrefabInstance:
     - target: {fileID: 8350903912903470244, guid: 69cf706c827896d49b8f845ef6593338,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.10546875
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8350903912903470244, guid: 69cf706c827896d49b8f845ef6593338,
         type: 3}
@@ -4372,6 +4372,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2341968285893975417, guid: 69cf706c827896d49b8f845ef6593338,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2341968285893975417, guid: 69cf706c827896d49b8f845ef6593338,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2341968285893975417, guid: 69cf706c827896d49b8f845ef6593338,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2341968285893975417, guid: 69cf706c827896d49b8f845ef6593338,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2341968285893975417, guid: 69cf706c827896d49b8f845ef6593338,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2341968285893975417, guid: 69cf706c827896d49b8f845ef6593338,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2341968285893975417, guid: 69cf706c827896d49b8f845ef6593338,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.adaptiveTilingThreshold
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 70380402406656982, guid: 69cf706c827896d49b8f845ef6593338, type: 3}
@@ -7703,39 +7738,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &2085610845
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2085610840}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe5e769e8f885d344a3a28b631284646, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sprites:
-  - {fileID: 21300000, guid: 120d1480cab74bf46a6fff8db2b59df7, type: 3}
-  - {fileID: 21300002, guid: 120d1480cab74bf46a6fff8db2b59df7, type: 3}
-  - {fileID: 21300004, guid: 120d1480cab74bf46a6fff8db2b59df7, type: 3}
-  - {fileID: 21300006, guid: 120d1480cab74bf46a6fff8db2b59df7, type: 3}
-  - {fileID: 21300008, guid: 120d1480cab74bf46a6fff8db2b59df7, type: 3}
-  - {fileID: 21300010, guid: 120d1480cab74bf46a6fff8db2b59df7, type: 3}
-  - {fileID: 21300012, guid: 120d1480cab74bf46a6fff8db2b59df7, type: 3}
-  currentSprite: -1
---- !u!114 &2085610846
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2085610840}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b21a5405b38526b42b49c984537a3d55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2085610847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7751,7 +7753,8 @@ MonoBehaviour:
   playerDamaged: {fileID: 8300000, guid: e4e8483e3c6050d4790b560d2f68f0ec, type: 3}
   death: {fileID: 8300000, guid: 0fe30add41726d946b84f3d4f375e339, type: 3}
   enemyHealth: 10
-  enemyDeathFX: {fileID: 0}
+  enemyDeathFX: {fileID: 6731384156897227736, guid: b563d682a7891c043a087625fa9f1126,
+    type: 3}
 --- !u!212 &2085610848
 SpriteRenderer:
   m_ObjectHideFlags: 0
