@@ -16,7 +16,7 @@ public class PlayerHealth : MonoBehaviour
 
     public Image damageIndicator;
     public Image damageSlider;
-    public string endText = "YOU WIN!";
+    
     public Image deathScreen;
     public CanvasGroup EndCavas;
     public Text endGameUI;
@@ -72,13 +72,13 @@ public class PlayerHealth : MonoBehaviour
     public void MakeDead()
     {
         Instantiate(playerFaintFX, transform.position, Quaternion.identity);
-        endText = "YOU LOSE!";
-        EndGame();
+        
+        EndGame("YOU LOSE!");
         deathScreen.color = Color.white;
         Destroy(gameObject);
     }    
 
-    public void EndGame()
+    public void EndGame(string endText)
     {
         endGameUI.text = endText;
         EndCavas.alpha = 1;

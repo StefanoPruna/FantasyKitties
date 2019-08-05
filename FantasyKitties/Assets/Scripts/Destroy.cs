@@ -6,7 +6,7 @@ public class Destroy : MonoBehaviour
 {
     public float aliveTime;
 
-    private void Start()
+    void Awake()
     {
         Destroy(gameObject, aliveTime);
     }

@@ -6,8 +6,8 @@ using UnityEngine;
 
 public class Flame : MonoBehaviour
 {
-    public Debris enemyDeath;
-    public int totalDebris = 10;
+    //public Debris enemyDeath;
+    //public int totalDebris = 10;
 
     public AudioClip playerDamaged;
     AudioSource playerAudioSource;
@@ -16,6 +16,9 @@ public class Flame : MonoBehaviour
 
     public float enemyHealth;
     float currentHealth;
+
+    //Enemy Death FX
+    public GameObject enemyDeathFX;
 
     // Start is called before the first frame update
     void Start()
@@ -58,7 +61,7 @@ public class Flame : MonoBehaviour
             //    //body2D.AddForce(Vector3.up * Random.Range(500, 2000));
             //}
             
-                Destroy(gameObject.transform.root);
+                Destroy(gameObject);
                 enemyAudioSource.PlayOneShot(death);            
         }
     }

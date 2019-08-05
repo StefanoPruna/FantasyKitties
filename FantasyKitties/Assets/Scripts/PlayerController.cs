@@ -26,6 +26,8 @@ public class PlayerController : MonoBehaviour
     public Transform groundCheck;
     public float jumpPower;
 
+    public bool gameFinished, victoryJump;
+
     void Start()
     {
         myRB = GetComponent<Rigidbody2D>();
@@ -35,6 +37,28 @@ public class PlayerController : MonoBehaviour
         
     void Update()
     {
+        if (gameFinished)
+        {
+            if (!victoryJump)
+            {
+                myAnim.SetBool("isGrounded", false);
+                myRB.velocity = new Vector2(0f, 0f);
+                myRB.AddForce(new Vector2(0, jumpPower), ForceMode2D.Impulse);
+                grounded = false;
+                victoryJump = true;
+
+            }
+            else
+            {
+                grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+                myAnim.SetBool("isGrounded", grounded);
+                myAnim.SetFloat("MoveSpeed", 0f);
+            }
+
+            return;
+        }
+            
+
         if (Input.GetKeyDown(KeyCode.C))
         {
             GameObject shuri = Instantiate(Shuriken, shurikens.position, shurikens.rotation);//(GameObject)Instantiate(Shuriken);
@@ -44,7 +68,7 @@ public class PlayerController : MonoBehaviour
         if (grounded && Input.GetAxis("Jump") > 0)
         {
             myAnim.SetBool("isGrounded", false);
-            myRB.velocity = new Vector2(myRB.velocity.x, 0f);
+            myRB.velocity = new Vector2(0f, 0f);
             myRB.AddForce(new Vector2(0, jumpPower), ForceMode2D.Impulse);
             grounded = false;
         }
@@ -63,7 +87,8 @@ public class PlayerController : MonoBehaviour
         myRB.velocity = new Vector2(move * maxSpeed, myRB.velocity.y);
         myAnim.SetFloat("MoveSpeed", Mathf.Abs(move));
     }
-
+   
+    
     void Flip()
     {
         facingRight = !facingRight;        

@@ -31,10 +31,10 @@ public class PlayerInventory : MonoBehaviour
     {
         totalScore =Rings;
 
-        if (totalScore >= 35)
-        {
-            GetComponent<PlayerHealth>().EndGame();
-        }        
+        //if (totalScore >= 35)
+        //{
+        //    GetComponent<PlayerHealth>().EndGame();
+        //}        
     }
 }
 

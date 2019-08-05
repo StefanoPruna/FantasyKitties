@@ -9,4 +9,9 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
+
+    public void loadSavedScene()
+    {
+        SceneManager.LoadScene(PlayerPrefsManager.loadLevel());
+    }
 }
