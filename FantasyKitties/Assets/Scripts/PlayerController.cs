@@ -26,13 +26,14 @@ public class PlayerController : MonoBehaviour
     public Transform groundCheck;
     public float jumpPower;
 
-    public bool gameFinished, victoryJump;
+    public bool gameFinished, victoryJump,isAlive;
 
     void Start()
     {
         myRB = GetComponent<Rigidbody2D>();
         myRenderer = GetComponent<SpriteRenderer>();
         myAnim = GetComponent<Animator>();
+        isAlive = true;
     }
         
     void Update()

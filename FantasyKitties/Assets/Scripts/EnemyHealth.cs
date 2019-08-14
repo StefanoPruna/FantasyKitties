@@ -1,45 +1,63 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class EnemyHealth : MonoBehaviour
 {
+    //public Debris enemyDeath;
+    //public int totalDebris = 10;
+
     public AudioClip playerDamaged;
     AudioSource playerAudioSource;
-    public AudioClip explosion;
-    AudioSource deathAudioSource;
+    private AudioSource enemyAudioSource;
+    public AudioClip death;
 
     public float enemyHealth;
     float currentHealth;
-        
+
+    //Enemy Death FX
+    public GameObject enemyDeathFX;
+
+    // Start is called before the first frame update
     void Start()
     {
         currentHealth = enemyHealth;
-        playerAudioSource = GetComponent<AudioSource>();
-        deathAudioSource = GetComponent<AudioSource>();
     }
 
-
+    // Update is called once per frame
     void Update()
     {
-    }
-    private void OnTriggerEnter2d(Collider2D collision)
-    {     
-        if (collision.tag == "shurikens")
-        {
-            playerAudioSource.PlayOneShot(playerDamaged);
-            currentHealth = enemyHealth - 1f;
-            print(currentHealth);
-            
-        }
+        playerAudioSource = GetComponent<AudioSource>();
+        enemyAudioSource = GetComponent<AudioSource>();
     }
 
-    public void EnemyDeath()
+    private void OnTriggerEnter2D(Collider2D target)
     {
-        if(currentHealth < 0)
+        if (target.gameObject.tag == "shurikens")
         {
+            currentHealth = currentHealth - 1f;
+            print(currentHealth);
+            playerAudioSource.PlayOneShot(playerDamaged);
+        }
+
+        if (currentHealth <= 0f)
+        {
+            OnFlames();
+        }
+
+
+        void OnFlames()
+        {
+            Instantiate(enemyDeathFX, new Vector3(transform.position.x,transform.position.y,-1f), Quaternion.identity);
+            if (gameObject.name == "Boss")
+            {
+                GameObject.FindGameObjectWithTag("Door").GetComponent<EdgeCollider2D>().enabled = false; ;
+            }
             Destroy(gameObject);
-            deathAudioSource.PlayOneShot(explosion);
+            enemyAudioSource.PlayOneShot(death);
         }
     }
 }
+

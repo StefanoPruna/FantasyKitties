@@ -96,3 +96,4 @@ MonoBehaviour:
   - {fileID: 21300016, guid: 42d17a4bace79ff409a723f011096e80, type: 3}
   - {fileID: 21300038, guid: 42d17a4bace79ff409a723f011096e80, type: 3}
   - {fileID: 21300018, guid: 42d17a4bace79ff409a723f011096e80, type: 3}
+  currentSprite: -1

@@ -6,6 +6,7 @@ public class EnemyMovement : MonoBehaviour
 {
     Animator enemyRuns;
 
+    private GameObject player;
     public GameObject EnemyBullet;
     public float enemyAccel;
     public float maxSpeed = 20f;
@@ -27,11 +28,16 @@ public class EnemyMovement : MonoBehaviour
     float flipTime = 5f;
     float nextFlipChance = 0f;
     Transform enemyTransform;
+
+    public bool isAlive;
     
     // Start is called before the first frame update
     void Start()
-    {        
-        enemyTransform = GetComponent<Transform>();
+    {
+        player = GameObject.FindGameObjectWithTag("Player");
+
+        isAlive = true;
+   enemyTransform = GetComponent<Transform>();
         enemyRB = GetComponent<Rigidbody2D>();
         enemyRuns = GetComponentInChildren<Animator>();        
         //playerAudioSource = GetComponent<AudioSource>();
@@ -41,17 +47,23 @@ public class EnemyMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Time.time > nextFlipChance)
+        if (player)
         {
-            if (Random.Range(0, 10) >= 5) flipFacing();
-            nextFlipChance = Time.time + flipTime;
+            if (Time.time > nextFlipChance)
+            {
+                if (Random.Range(0, 10) >= 5) flipFacing();
+                nextFlipChance = Time.time + flipTime;
+            }
+            if (charging && Time.time > startChargeTime && enemyRB.velocity.x < maxSpeed)
+            {
+                if (!facingRight) enemyRB.AddForce(new Vector2(-1f, 0f) * enemyAccel);
+                else enemyRB.AddForce(new Vector2(1f, 0f) * enemyAccel);
+                enemyRuns.SetBool("isCharging", charging);
+            }
+
+           
         }
-        if(charging && Time.time > startChargeTime && enemyRB.velocity.x < maxSpeed)
-        {
-            if (!facingRight) enemyRB.AddForce(new Vector2(-1f, 0f) * enemyAccel);
-            else enemyRB.AddForce(new Vector2(1f, 0f) * enemyAccel);
-            enemyRuns.SetBool("isCharging", charging);
-        }
+       
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
