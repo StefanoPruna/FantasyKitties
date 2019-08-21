@@ -22,6 +22,6 @@ public class GameCleanerController : MonoBehaviour
 
     public void StopGame()
     {
-        Application.Quit();
+        SceneManager.LoadScene("_Menu");
     }
 }

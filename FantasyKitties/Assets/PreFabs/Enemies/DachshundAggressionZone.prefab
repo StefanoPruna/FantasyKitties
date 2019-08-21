@@ -111,7 +111,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 0fe30add41726d946b84f3d4f375e339, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -380,21 +380,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8255478528100132424, guid: 6b1f445a1ec1d7148a508e8dfda2d965,
-        type: 3}
-      propertyPath: m_Offset.x
-      value: -1.3801367
-      objectReference: {fileID: 0}
-    - target: {fileID: 8255478528100132424, guid: 6b1f445a1ec1d7148a508e8dfda2d965,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: 0.7831106
-      objectReference: {fileID: 0}
-    - target: {fileID: 8255478528100132424, guid: 6b1f445a1ec1d7148a508e8dfda2d965,
-        type: 3}
-      propertyPath: m_Radius
-      value: 2.0912151
-      objectReference: {fileID: 0}
     - target: {fileID: 8791153511515974259, guid: 6b1f445a1ec1d7148a508e8dfda2d965,
         type: 3}
       propertyPath: damage
@@ -409,6 +394,21 @@ PrefabInstance:
         type: 3}
       propertyPath: pushBackForce
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8255478528100132424, guid: 6b1f445a1ec1d7148a508e8dfda2d965,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -1.3801367
+      objectReference: {fileID: 0}
+    - target: {fileID: 8255478528100132424, guid: 6b1f445a1ec1d7148a508e8dfda2d965,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.7831106
+      objectReference: {fileID: 0}
+    - target: {fileID: 8255478528100132424, guid: 6b1f445a1ec1d7148a508e8dfda2d965,
+        type: 3}
+      propertyPath: m_Radius
+      value: 2.0912151
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b1f445a1ec1d7148a508e8dfda2d965, type: 3}

@@ -69,8 +69,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 15
-  m_Sprite: {fileID: 0}
+  m_SortingOrder: 10
+  m_Sprite: {fileID: 21300000, guid: 1929769e6ffef91439423b43aed8d63c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_Size: {x: 2.5, y: 2.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!95 &930775336043967638
@@ -113,7 +113,6 @@ GameObject:
   - component: {fileID: 736265460739532586}
   - component: {fileID: 3934203742290262003}
   - component: {fileID: 731852484997572114}
-  - component: {fileID: 731852484997572142}
   - component: {fileID: 8350903914199475234}
   m_Layer: 8
   m_Name: MouseAggressionZone 1
@@ -297,54 +296,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!212 &731852484997572142
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8776479008126431211}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 10
-  m_Sprite: {fileID: 21300000, guid: 1929769e6ffef91439423b43aed8d63c, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 2.5, y: 2.5}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!114 &8350903914199475234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -429,21 +380,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8255478528100132424, guid: 6b1f445a1ec1d7148a508e8dfda2d965,
-        type: 3}
-      propertyPath: m_Offset.x
-      value: 0.34194696
-      objectReference: {fileID: 0}
-    - target: {fileID: 8255478528100132424, guid: 6b1f445a1ec1d7148a508e8dfda2d965,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: -0.19444013
-      objectReference: {fileID: 0}
-    - target: {fileID: 8255478528100132424, guid: 6b1f445a1ec1d7148a508e8dfda2d965,
-        type: 3}
-      propertyPath: m_Radius
-      value: 1.0363871
-      objectReference: {fileID: 0}
     - target: {fileID: 8791153511515974259, guid: 6b1f445a1ec1d7148a508e8dfda2d965,
         type: 3}
       propertyPath: damage
@@ -458,6 +394,21 @@ PrefabInstance:
         type: 3}
       propertyPath: pushBackForce
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8255478528100132424, guid: 6b1f445a1ec1d7148a508e8dfda2d965,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.34194696
+      objectReference: {fileID: 0}
+    - target: {fileID: 8255478528100132424, guid: 6b1f445a1ec1d7148a508e8dfda2d965,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.19444013
+      objectReference: {fileID: 0}
+    - target: {fileID: 8255478528100132424, guid: 6b1f445a1ec1d7148a508e8dfda2d965,
+        type: 3}
+      propertyPath: m_Radius
+      value: 1.0363871
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b1f445a1ec1d7148a508e8dfda2d965, type: 3}

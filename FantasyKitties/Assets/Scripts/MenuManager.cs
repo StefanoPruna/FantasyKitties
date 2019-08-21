@@ -5,6 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
+    public GameObject btnContinue;
+
+    private void Start()
+    {
+        string levelName = PlayerPrefsManager.loadLevel();
+        if (levelName != "")
+            btnContinue.SetActive(true);
+        else
+            btnContinue.SetActive(false);
+    }
     public void loadScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
@@ -12,6 +22,8 @@ public class MenuManager : MonoBehaviour
 
     public void loadSavedScene()
     {
-        SceneManager.LoadScene(PlayerPrefsManager.loadLevel());
+        string levelName = PlayerPrefsManager.loadLevel();
+        if(levelName != "")
+            SceneManager.LoadScene(levelName);
     }
 }

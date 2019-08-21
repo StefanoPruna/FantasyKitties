@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3015256626767619985}
   - component: {fileID: 2562460866021599529}
   - component: {fileID: 4288807079841480611}
-  - component: {fileID: 8906868343391077551}
+  - component: {fileID: 1923913785}
   m_Layer: 8
   m_Name: EvonAggressionZone
   m_TagString: Enemy
@@ -99,6 +99,7 @@ MonoBehaviour:
   enemyAccel: 4
   maxSpeed: 15
   chargeTime: 0.5
+  isAlive: 0
 --- !u!82 &4288807079841480611
 AudioSource:
   m_ObjectHideFlags: 0
@@ -110,7 +111,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 0fe30add41726d946b84f3d4f375e339, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -195,7 +196,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &8906868343391077551
+--- !u!114 &1923913785
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -204,7 +205,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5797360005783364072}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: faef701408836e749b58c9d4e70eb56d, type: 3}
+  m_Script: {fileID: 11500000, guid: cacdf26da01d7124bb9b457be6d27a66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerDamaged: {fileID: 8300000, guid: e4e8483e3c6050d4790b560d2f68f0ec, type: 3}
@@ -300,7 +301,7 @@ SpriteRenderer:
   m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 5f437edee646f2643afacbb76108e549, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 2.5, y: 2.5}

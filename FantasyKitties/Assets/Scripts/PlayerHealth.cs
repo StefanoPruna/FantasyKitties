@@ -27,6 +27,8 @@ public class PlayerHealth : MonoBehaviour
 
     private void Start()
     {
+        endGameUI.transform.parent.gameObject.SetActive(false);
+
         currentHealth = fullHealth;
         playerAudioSource = GetComponent<AudioSource>();        
         damageSlider.fillAmount = 0f;
@@ -80,6 +82,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void EndGame(string endText)
     {
+        endGameUI.transform.parent.gameObject.SetActive(true);
         endGameUI.text = endText;
         EndCavas.alpha = 1;
         print(endText);

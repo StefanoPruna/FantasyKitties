@@ -8,7 +8,7 @@ public class Shuriken : MonoBehaviour
     private GameObject player;
     float speed;
     public Rigidbody2D rb;
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,5 +25,15 @@ public class Shuriken : MonoBehaviour
         //transform.position = position;
 
         transform.Rotate(new Vector3(0, 0, -360) * Time.deltaTime);
+    }
+
+    private void OnTriggerEnter2D(Collider2D target)
+    {
+        if (target.gameObject.tag == "DangerZone")
+        {
+            Destroy(gameObject);
+        }
+
+
     }
 }
