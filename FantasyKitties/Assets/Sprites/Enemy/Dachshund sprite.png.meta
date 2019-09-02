@@ -104,8 +104,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 772
-        height: 519
+        width: 250
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -113,7 +113,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c98eb8e7cc1d7ad44b8c6981bdbc5090
+      spriteID: c95579dc301edf543adeccc86da785eb
       vertices: []
       indices: 
       edges: []
@@ -122,10 +122,10 @@ TextureImporter:
       name: Dachshund sprite_1
       rect:
         serializedVersion: 2
-        x: 778
+        x: 250
         y: 0
-        width: 772
-        height: 521
+        width: 250
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,7 +133,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d818c3c615dbb3f4e9e5a4d63f4e3cdb
+      spriteID: ab5bb34eadf686c4297d65cbe5b5e440
       vertices: []
       indices: 
       edges: []
@@ -142,10 +142,10 @@ TextureImporter:
       name: Dachshund sprite_2
       rect:
         serializedVersion: 2
-        x: 1548
+        x: 500
         y: 0
-        width: 797
-        height: 515
+        width: 250
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,7 +153,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e94ec220008d4914aa59456696d0e7bd
+      spriteID: 0a605bbab5f27394fbb8e7ff80a446b7
       vertices: []
       indices: 
       edges: []
@@ -162,10 +162,10 @@ TextureImporter:
       name: Dachshund sprite_3
       rect:
         serializedVersion: 2
-        x: 2379
+        x: 750
         y: 0
-        width: 821
-        height: 519
+        width: 250
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,7 +173,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7ca7182a2360cd4ebce308c76ed9d2d
+      spriteID: 51a9715e3767d8a4daaf7ef7afa1dfea
       vertices: []
       indices: 
       edges: []

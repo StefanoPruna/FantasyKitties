@@ -239,8 +239,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3034127625194356964}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.22, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.899, y: -0.4, z: 0}
+  m_LocalScale: {x: 4.25064, y: 1.887, z: 1}
   m_Children:
   - {fileID: 8317429882887135557}
   m_Father: {fileID: 1708328330834652921}
@@ -307,7 +307,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 7.72, y: 5.19}
+  m_Size: {x: 2.5, y: 2.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -380,6 +380,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8255478528100132424, guid: 6b1f445a1ec1d7148a508e8dfda2d965,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.6018769
+      objectReference: {fileID: 0}
+    - target: {fileID: 8255478528100132424, guid: 6b1f445a1ec1d7148a508e8dfda2d965,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.039075907
+      objectReference: {fileID: 0}
+    - target: {fileID: 8255478528100132424, guid: 6b1f445a1ec1d7148a508e8dfda2d965,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.48393854
+      objectReference: {fileID: 0}
     - target: {fileID: 8791153511515974259, guid: 6b1f445a1ec1d7148a508e8dfda2d965,
         type: 3}
       propertyPath: damage
@@ -394,21 +409,6 @@ PrefabInstance:
         type: 3}
       propertyPath: pushBackForce
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8255478528100132424, guid: 6b1f445a1ec1d7148a508e8dfda2d965,
-        type: 3}
-      propertyPath: m_Offset.x
-      value: -1.3801367
-      objectReference: {fileID: 0}
-    - target: {fileID: 8255478528100132424, guid: 6b1f445a1ec1d7148a508e8dfda2d965,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: 0.7831106
-      objectReference: {fileID: 0}
-    - target: {fileID: 8255478528100132424, guid: 6b1f445a1ec1d7148a508e8dfda2d965,
-        type: 3}
-      propertyPath: m_Radius
-      value: 2.0912151
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b1f445a1ec1d7148a508e8dfda2d965, type: 3}

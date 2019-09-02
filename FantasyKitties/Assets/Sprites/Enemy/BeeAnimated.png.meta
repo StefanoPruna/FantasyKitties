@@ -7,7 +7,7 @@ TextureImporter:
     21300004: BeeAnimated_2
     21300006: BeeAnimated_3
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -115,16 +115,16 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 696
-        height: 634
+        width: 250
+        height: 250
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 10, w: 0}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15f479535962e9e4184923d9dfe70605
+      spriteID: 35536d7268a37c041a18518af8367f49
       vertices: []
       indices: 
       edges: []
@@ -133,18 +133,18 @@ TextureImporter:
       name: BeeAnimated_1
       rect:
         serializedVersion: 2
-        x: 696
+        x: 250
         y: 0
-        width: 666
-        height: 634
-      alignment: 9
-      pivot: {x: 0.504786, y: 0.49999994}
-      border: {x: 0, y: 0, z: 5, w: 0}
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 358df3c31260fcb41b9a336206d1c200
+      spriteID: 35dde99a46c059b4a84e9ad82833f128
       vertices: []
       indices: 
       edges: []
@@ -153,18 +153,18 @@ TextureImporter:
       name: BeeAnimated_2
       rect:
         serializedVersion: 2
-        x: 1367
+        x: 500
         y: 0
-        width: 671.5
-        height: 634
+        width: 250
+        height: 250
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 63, w: 0}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 658461cc358fc1043b8acdab4ca7ce84
+      spriteID: f2d534c4ce7a3b44fade0503b3ca54df
       vertices: []
       indices: 
       edges: []
@@ -173,18 +173,18 @@ TextureImporter:
       name: BeeAnimated_3
       rect:
         serializedVersion: 2
-        x: 2038
+        x: 750
         y: 0
-        width: 671.5
-        height: 634
+        width: 250
+        height: 250
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 8, y: 0, z: 0, w: 0}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 533c176b65a254b49b0006942bc201c4
+      spriteID: 7bf9ccc292467694c975fef407f2d2b5
       vertices: []
       indices: 
       edges: []
