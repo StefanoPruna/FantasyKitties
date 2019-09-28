@@ -16,14 +16,14 @@ public class EnemyHealth : MonoBehaviour
 
     public float enemyHealth;
     float currentHealth;
-
+    
     //Enemy Death FX
     public GameObject enemyDeathFX;
 
     // Start is called before the first frame update
     void Start()
     {
-        currentHealth = enemyHealth;
+        currentHealth = enemyHealth;        
     }
 
     // Update is called once per frame
@@ -40,8 +40,9 @@ public class EnemyHealth : MonoBehaviour
             currentHealth = currentHealth - 1f;
             print(currentHealth);
             playerAudioSource.PlayOneShot(playerDamaged);
+          
         }
-
+      
         if (currentHealth <= 0f)
         {
             OnFlames();
@@ -50,7 +51,7 @@ public class EnemyHealth : MonoBehaviour
 
         void OnFlames()
         {
-            Instantiate(enemyDeathFX, new Vector3(transform.position.x,transform.position.y,-1f), Quaternion.identity);
+            Instantiate(enemyDeathFX, new Vector3(transform.position.x, transform.position.y, -1f), Quaternion.identity);
             if (gameObject.name == "Boss")
             {
                 GameObject.FindGameObjectWithTag("Door").GetComponent<EdgeCollider2D>().enabled = false; ;
