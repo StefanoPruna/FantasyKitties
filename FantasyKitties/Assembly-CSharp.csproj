@@ -84,6 +84,7 @@
     <Compile Include="Assets\Scripts\RingController.cs" />
     <Compile Include="Assets\Scripts\SelfDestruct.cs" />
     <Compile Include="Assets\Scripts\Shuriken.cs" />
+    <Compile Include="Assets\Scripts\UVScroll.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/makem/OneDrive/Documents/Github/FantasyKitties/FantasyKitties/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
