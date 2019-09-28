@@ -9,6 +9,7 @@ TagManager:
   - Hole
   - HoleCheck
   - Door
+  - DangerZone
   layers:
   - Default
   - TransparentFX

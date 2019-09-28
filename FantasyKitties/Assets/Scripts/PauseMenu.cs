@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityStandardAssets.CrossPlatformInput;
+//using UnityStandardAssets.CrossPlatformInput;
 using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
@@ -36,7 +36,7 @@ public class PauseMenu : MonoBehaviour
     public void LoadMenu()
     {
         Time.timeScale = 1f;
-        GameManager.isRestart = false;
+      //  GameManager.isRestart = false;
         SceneManager.LoadScene("Gameplay");
     }
 

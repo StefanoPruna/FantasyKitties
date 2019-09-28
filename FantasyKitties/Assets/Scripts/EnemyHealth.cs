@@ -16,14 +16,21 @@ public class EnemyHealth : MonoBehaviour
 
     public float enemyHealth;
     float currentHealth;
+
     
     //Enemy Death FX
     public GameObject enemyDeathFX;
 
+    public float flashTime = 0.1f;
+    Color origionalColor;
+    public MeshRenderer renderer;
+            
+
     // Start is called before the first frame update
     void Start()
     {
-        currentHealth = enemyHealth;        
+        currentHealth = enemyHealth;
+        origionalColor = GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f);
     }
 
     // Update is called once per frame
@@ -31,16 +38,27 @@ public class EnemyHealth : MonoBehaviour
     {
         playerAudioSource = GetComponent<AudioSource>();
         enemyAudioSource = GetComponent<AudioSource>();
-    }
 
+    }
+    void FlashRed()
+    {
+        GetComponent<SpriteRenderer>().color = Color.red;
+        Invoke("ResetColor", flashTime);
+    }
+    void ResetColor()
+    {
+        GetComponent<SpriteRenderer>().color = origionalColor;
+    }
     private void OnTriggerEnter2D(Collider2D target)
     {
+        if (gameObject.tag != "Enemy") return;
+
         if (target.gameObject.tag == "shurikens")
         {
             currentHealth = currentHealth - 1f;
             print(currentHealth);
             playerAudioSource.PlayOneShot(playerDamaged);
-          
+            FlashRed();
         }
       
         if (currentHealth <= 0f)

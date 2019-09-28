@@ -167,8 +167,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 18
@@ -1910,6 +1908,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MouseAggressionZone (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8776479008126431211, guid: e082264afbb47f941a8eae36a82d602e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 8776479008126431210, guid: e082264afbb47f941a8eae36a82d602e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1964,6 +1967,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1739713993816920138, guid: e082264afbb47f941a8eae36a82d602e,
+        type: 3}
+      propertyPath: m_TagString
+      value: DangerZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815486407287873113, guid: e082264afbb47f941a8eae36a82d602e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8350903914199475234, guid: e082264afbb47f941a8eae36a82d602e, type: 3}
@@ -2684,6 +2697,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fireWorks: {fileID: 2107039572099281249, guid: 8dd784c37505ecc40b888233fc61c6c9,
     type: 3}
+--- !u!1 &484416632 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8469758056004773623, guid: e082264afbb47f941a8eae36a82d602e,
+    type: 3}
+  m_PrefabInstance: {fileID: 379242857}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &484416636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484416632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cacdf26da01d7124bb9b457be6d27a66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerDamaged: {fileID: 8300000, guid: e4e8483e3c6050d4790b560d2f68f0ec, type: 3}
+  death: {fileID: 8300000, guid: 0fe30add41726d946b84f3d4f375e339, type: 3}
+  enemyHealth: 10
+  enemyDeathFX: {fileID: 6731384156897227736, guid: b563d682a7891c043a087625fa9f1126,
+    type: 3}
+  flashTime: 0.1
+  renderer: {fileID: 0}
 --- !u!114 &498562718 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5477526206761787756, guid: e5c5c249f9170bf41950617808218302,
@@ -3690,8 +3728,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &632217679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3710,8 +3746,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 6842ec66e31a03a44b0609ac35832c57, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -3960,6 +3994,8 @@ MonoBehaviour:
   enemyHealth: 10
   enemyDeathFX: {fileID: 6731384156897227736, guid: b563d682a7891c043a087625fa9f1126,
     type: 3}
+  flashTime: 0.1
+  renderer: {fileID: 0}
 --- !u!4 &703849386 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3072923740676473932, guid: 57759cb02eef87d41b333a1f2339dbd4,
@@ -4762,8 +4798,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300016, guid: 018d47e3291083c4c8901d5b39e1f0ee, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
@@ -6135,8 +6169,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &1244927680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6155,8 +6187,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300002, guid: 6842ec66e31a03a44b0609ac35832c57, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -7056,8 +7086,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 18
@@ -7305,29 +7333,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1852747491}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1469380604 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8776479008126431211, guid: e082264afbb47f941a8eae36a82d602e,
-    type: 3}
-  m_PrefabInstance: {fileID: 379242857}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1469380605
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1469380604}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cacdf26da01d7124bb9b457be6d27a66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerDamaged: {fileID: 8300000, guid: e4e8483e3c6050d4790b560d2f68f0ec, type: 3}
-  death: {fileID: 8300000, guid: 0fe30add41726d946b84f3d4f375e339, type: 3}
-  enemyHealth: 10
-  enemyDeathFX: {fileID: 6731384156897227736, guid: b563d682a7891c043a087625fa9f1126,
-    type: 3}
 --- !u!114 &1471236402 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7839615622033012205, guid: 808837db04927fb4e936c512ece1e590,
@@ -9196,29 +9201,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1767094615}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1767329773 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1739713993816920138, guid: e082264afbb47f941a8eae36a82d602e,
-    type: 3}
-  m_PrefabInstance: {fileID: 379242857}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1767329777
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1767329773}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cacdf26da01d7124bb9b457be6d27a66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerDamaged: {fileID: 8300000, guid: e4e8483e3c6050d4790b560d2f68f0ec, type: 3}
-  death: {fileID: 8300000, guid: 0fe30add41726d946b84f3d4f375e339, type: 3}
-  enemyHealth: 10
-  enemyDeathFX: {fileID: 6731384156897227736, guid: b563d682a7891c043a087625fa9f1126,
-    type: 3}
 --- !u!1 &1770746048
 GameObject:
   m_ObjectHideFlags: 0
@@ -11680,6 +11662,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ninja
+      objectReference: {fileID: 0}
+    - target: {fileID: 7839615622033012205, guid: 808837db04927fb4e936c512ece1e590,
+        type: 3}
+      propertyPath: m_FillAmount
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1891706937362348666, guid: 808837db04927fb4e936c512ece1e590,
         type: 3}

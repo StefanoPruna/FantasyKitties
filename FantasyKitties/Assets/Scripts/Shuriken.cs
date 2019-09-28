@@ -29,11 +29,9 @@ public class Shuriken : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D target)
     {
-        if (target.gameObject.tag == "DangerZone")
+        if (target.gameObject.name == "Dangerzone")
         {
             Destroy(gameObject);
         }
-
-
     }
 }
