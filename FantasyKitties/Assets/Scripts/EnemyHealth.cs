@@ -40,43 +40,62 @@ public class EnemyHealth : MonoBehaviour
         enemyAudioSource = GetComponent<AudioSource>();
 
     }
-    void FlashRed()
+   public void FlashRed()
     {
         GetComponent<SpriteRenderer>().color = Color.red;
         Invoke("ResetColor", flashTime);
     }
+
     void ResetColor()
     {
         GetComponent<SpriteRenderer>().color = origionalColor;
     }
-    private void OnTriggerEnter2D(Collider2D target)
-    {
-        if (gameObject.tag != "Enemy") return;
 
-        if (target.gameObject.tag == "shurikens")
-        {
-            currentHealth = currentHealth - 1f;
-            print(currentHealth);
-            playerAudioSource.PlayOneShot(playerDamaged);
-            FlashRed();
-        }
-      
+    public void Damage()
+    {
+        FlashRed();
+
+        currentHealth = currentHealth - 1f;
+        print(currentHealth);
+        playerAudioSource.PlayOneShot(playerDamaged);
+
         if (currentHealth <= 0f)
         {
             OnFlames();
         }
-
-
-        void OnFlames()
-        {
-            Instantiate(enemyDeathFX, new Vector3(transform.position.x, transform.position.y, -1f), Quaternion.identity);
-            if (gameObject.name == "Boss")
-            {
-                GameObject.FindGameObjectWithTag("Door").GetComponent<EdgeCollider2D>().enabled = false; ;
-            }
-            Destroy(gameObject);
-            enemyAudioSource.PlayOneShot(death);
-        }
     }
+
+    void OnFlames()
+    {
+        Instantiate(enemyDeathFX, new Vector3(transform.position.x, transform.position.y, -1f), Quaternion.identity);
+        if (transform.parent.gameObject.name == "Boss")
+        {
+            GameObject.FindGameObjectWithTag("Door").GetComponent<EdgeCollider2D>().enabled = false; ;
+        }
+        enemyAudioSource.PlayOneShot(death);
+
+        transform.parent.gameObject.SetActive(false);
+        Destroy(transform.parent.gameObject, 0.5f);
+       
+    }
+    //private void OnTriggerEnter2D(Collider2D target)
+    //{
+
+
+    //    if (target.gameObject.tag == "shurikens")
+    //    {
+    //        currentHealth = currentHealth - 1f;
+    //        print(currentHealth);
+    //        playerAudioSource.PlayOneShot(playerDamaged);
+    //    }
+
+    //    if (currentHealth <= 0f)
+    //    {
+    //        OnFlames();
+    //    }
+
+    //}
+
+
 }
 

@@ -32,6 +32,10 @@ public class Shuriken : MonoBehaviour
         if (target.gameObject.name == "Dangerzone")
         {
             Destroy(gameObject);
+
+            //Get the enemy parent object
+            target.gameObject.GetComponentInParent<EnemyHealth>().Damage();
+
         }
     }
 }

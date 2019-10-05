@@ -37,7 +37,7 @@ public class EnemyMovement : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
 
         isAlive = true;
-   enemyTransform = GetComponent<Transform>();
+        enemyTransform = GetComponent<Transform>();
         enemyRB = GetComponent<Rigidbody2D>();
         enemyRuns = GetComponentInChildren<Animator>();        
         //playerAudioSource = GetComponent<AudioSource>();
@@ -63,7 +63,9 @@ public class EnemyMovement : MonoBehaviour
 
            
         }
-       
+        else
+            enemyRB.velocity = new Vector2(0f, 0f);
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
