@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\AutoDestroy.cs" />
     <Compile Include="Assets\Scripts\CameraFollows.cs" />
+    <Compile Include="Assets\Scripts\CheckPoint.cs" />
     <Compile Include="Assets\Scripts\CherryController.cs" />
     <Compile Include="Assets\Scripts\CherryReward.cs" />
     <Compile Include="Assets\Scripts\Destroy.cs" />

@@ -325,7 +325,7 @@ GameObject:
   - component: {fileID: 208553590}
   - component: {fileID: 208553589}
   m_Layer: 0
-  m_Name: NinjaCatStill_0
+  m_Name: NinjaCat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3654,7 +3654,7 @@ GameObject:
   - component: {fileID: 2102494523}
   - component: {fileID: 2102494522}
   m_Layer: 0
-  m_Name: 381531__dominictreis__playful-music
+  m_Name: playful-music
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

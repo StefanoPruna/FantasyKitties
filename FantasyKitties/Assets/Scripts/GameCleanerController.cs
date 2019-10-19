@@ -17,6 +17,7 @@ public class GameCleanerController : MonoBehaviour
 
     public void RestartGame()
     {
+        CheckPoint cP = new CheckPoint();
         SceneManager.LoadScene("Level_1");
     }
 
