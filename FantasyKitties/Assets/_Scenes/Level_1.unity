@@ -6981,7 +6981,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: d94604e648714c44dad6e1cb47997310, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7000,13 +7000,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1355318001}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.747, y: -0.73, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.46885663, w: 0.88327426}
+  m_LocalPosition: {x: 10.9, y: 1.46, z: 0}
   m_LocalScale: {x: 0.791, y: 0.829, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -55.920002}
 --- !u!70 &1355318005
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -7020,8 +7020,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.19822742, y: 0}
-  m_Size: {x: 2.6212819, y: 5}
+  m_Offset: {x: 2.1447985, y: -0.07827601}
+  m_Size: {x: 6.5144086, y: 6.2158003}
   m_Direction: 0
 --- !u!114 &1355318006
 MonoBehaviour:
@@ -7035,8 +7035,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf5dc217d77024e42b9255604e35ecb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CheckPointSound: {fileID: 0}
-  checkPoint: {fileID: 0}
+  startPos: {fileID: 1780926583678001047, guid: 8622d720a35c39e41b6532768e49f071,
+    type: 3}
+  CheckPointSound: {fileID: 3098372640874732993, guid: 87e45cd63a6e4df4bb928bfc3c92326e,
+    type: 3}
 --- !u!1001 &1361170868
 PrefabInstance:
   m_ObjectHideFlags: 0

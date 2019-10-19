@@ -5,10 +5,13 @@ using UnityEngine;
 public class CheckPoint : MonoBehaviour
 {
     static Vector3 ReachedPoint;
+    public Transform startPos;
     public GameObject CheckPointSound;
-    public AudioClip checkPoint;
-    AudioSource checkPointAudio;
-    
+
+    private void Awake()
+    {
+        this.transform.position = new Vector3(startPos.position.x, startPos.position.y, startPos.position.z);
+    }
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
@@ -16,13 +19,17 @@ public class CheckPoint : MonoBehaviour
         {
             if(transform.position.x > ReachedPoint.x)
             {
-                Instantiate(CheckPointSound, transform.position, Quaternion.identity);
-                ReachedPoint = collision.transform.position;
-                checkPointAudio = GetComponent<AudioSource>();
+                Instantiate(CheckPointSound, transform.position, Quaternion.identity);                
+                ReachedPoint = collision.transform.position;               
 
             }
 
         }
     }
-    
+
+    private void Update()
+    {
+        
+    }
+
 }
