@@ -23,7 +23,7 @@ public class EnemyHealth : MonoBehaviour
 
     public float flashTime = 0.1f;
     Color origionalColor;
-    public MeshRenderer renderer;
+    public new MeshRenderer renderer;
             
 
     // Start is called before the first frame update

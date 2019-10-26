@@ -26,10 +26,4 @@ public class CheckPoint : MonoBehaviour
 
         }
     }
-
-    private void Update()
-    {
-        
-    }
-
 }
