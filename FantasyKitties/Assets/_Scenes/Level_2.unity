@@ -291,6 +291,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: SwordCat
       objectReference: {fileID: 0}
+    - target: {fileID: 7839615622033012205, guid: 808837db04927fb4e936c512ece1e590,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b016a5b62578ad4cae98ae46e35fbef,
+        type: 3}
     - target: {fileID: 1891706937362348666, guid: 808837db04927fb4e936c512ece1e590,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -356,22 +362,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 0.74477005
       objectReference: {fileID: 0}
-    - target: {fileID: 1891706937362348667, guid: 808837db04927fb4e936c512ece1e590,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 0aa3dbd0888e06645914a81c6857013b,
-        type: 3}
-    - target: {fileID: 1891706937362348550, guid: 808837db04927fb4e936c512ece1e590,
-        type: 3}
-      propertyPath: Shuriken
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1891706937362348550, guid: 808837db04927fb4e936c512ece1e590,
-        type: 3}
-      propertyPath: shurikens
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 1891706937362348549, guid: 808837db04927fb4e936c512ece1e590,
         type: 3}
       propertyPath: scoreRings
@@ -402,22 +392,32 @@ PrefabInstance:
       propertyPath: endGameUI
       value: 
       objectReference: {fileID: 1853816756}
-    - target: {fileID: 563864539837090253, guid: 808837db04927fb4e936c512ece1e590,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 7a8fd1debdc169849a5d4cede2e52fb3, type: 2}
-    - target: {fileID: 7839615622033012205, guid: 808837db04927fb4e936c512ece1e590,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 7b016a5b62578ad4cae98ae46e35fbef,
-        type: 3}
     - target: {fileID: 2395547450443785106, guid: 808837db04927fb4e936c512ece1e590,
         type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1891706937362348667, guid: 808837db04927fb4e936c512ece1e590,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0aa3dbd0888e06645914a81c6857013b,
+        type: 3}
+    - target: {fileID: 1891706937362348550, guid: 808837db04927fb4e936c512ece1e590,
+        type: 3}
+      propertyPath: Shuriken
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1891706937362348550, guid: 808837db04927fb4e936c512ece1e590,
+        type: 3}
+      propertyPath: shurikens
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 563864539837090253, guid: 808837db04927fb4e936c512ece1e590,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 7a8fd1debdc169849a5d4cede2e52fb3, type: 2}
     - target: {fileID: 7839615621376901166, guid: 808837db04927fb4e936c512ece1e590,
         type: 3}
       propertyPath: m_Sprite
@@ -783,7 +783,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 1287791574}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
