@@ -55,7 +55,7 @@ public class EnemyHealth : MonoBehaviour
     {
         FlashRed();
 
-        currentHealth = currentHealth - 1f;
+        currentHealth -= 1f;
         print(currentHealth);
         playerAudioSource.PlayOneShot(playerDamaged);
 
