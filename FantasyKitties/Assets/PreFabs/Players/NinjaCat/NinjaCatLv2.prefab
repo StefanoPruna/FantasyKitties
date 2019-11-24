@@ -154,8 +154,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.06287782, y: -0.0019963533}
-  m_Size: {x: 0.6716849, y: 2.0460072}
+  m_Offset: {x: -0.25466734, y: -0.19280382}
+  m_Size: {x: 2.176493, y: 4.66077}
   m_Direction: 0
 --- !u!114 &1517118137264539806
 MonoBehaviour:
@@ -178,8 +178,8 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 256
-  groundCheck: {fileID: 0}
-  jumpPower: 5
+  groundCheck: {fileID: 6997401987887618821}
+  jumpPower: 4
   gameFinished: 0
   victoryJump: 0
   isAlive: 0
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerDamaged: {fileID: 8300000, guid: dad046247aa8cb641a302127c433fe7a, type: 3}
-  fullHealth: 10
+  fullHealth: 20
   playerFaintFX: {fileID: 1063555138090289973, guid: ff4dec4b2992851449758f654f92d945,
     type: 3}
   damageIndicator: {fileID: 0}
@@ -237,7 +237,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 1.0190115
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -385,9 +385,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3393036052732521439}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 302.26596, y: 1.8624212, z: 0.18408203}
-  m_LocalScale: {x: 1.5520066, y: 1.4868706, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -2.62, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1517118137264539874}
   m_RootOrder: 0
@@ -403,6 +403,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 7717154429326073391, guid: 226f0ef92a8f03b409b3f52dea419204,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7717154429326073390, guid: 226f0ef92a8f03b409b3f52dea419204,
         type: 3}
@@ -549,10 +554,20 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -6
       objectReference: {fileID: 0}
+    - target: {fileID: 7717154429199608707, guid: 226f0ef92a8f03b409b3f52dea419204,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7717154429326073387, guid: 226f0ef92a8f03b409b3f52dea419204,
         type: 3}
       propertyPath: m_SortingOrder
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7717154428245057100, guid: 226f0ef92a8f03b409b3f52dea419204,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 226f0ef92a8f03b409b3f52dea419204, type: 3}

@@ -179,7 +179,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   groundCheck: {fileID: 0}
-  jumpPower: 5
+  jumpPower: 4
   gameFinished: 0
   victoryJump: 0
   isAlive: 0
