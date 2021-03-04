@@ -49,3 +49,20 @@ Update Mode: updateDependencies
 
 The following packages were updated:
   com.unity.package-manager-ui from version 2.0.7 to 2.0.8
+
+=== Mon Aug 17 14:05:16 2020
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.analytics from version 3.2.2 to 3.2.3
+  com.unity.package-manager-ui from version 2.0.8 to 2.0.13
+
+=== Thu Mar  4 14:02:15 2021
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.purchasing from version 2.0.3 to 2.2.1

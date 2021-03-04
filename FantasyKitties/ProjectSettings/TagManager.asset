@@ -10,6 +10,7 @@ TagManager:
   - HoleCheck
   - Door
   - DangerZone
+  - missiles
   layers:
   - Default
   - TransparentFX
