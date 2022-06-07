@@ -1,14 +1,24 @@
 fileFormatVersion: 2
 guid: 8ab53f7fa80ed22459beae9de93cc8bf
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: StefaninaAnimated_0
-    21300002: StefaninaAnimated_1
-    21300004: StefaninaAnimated_2
-    21300006: StefaninaAnimated_3
-    21300008: StefaninaAnimated_4
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: StefaninaAnimated_0
+  - first:
+      213: 21300002
+    second: StefaninaAnimated_1
+  - first:
+      213: 21300004
+    second: StefaninaAnimated_2
+  - first:
+      213: 21300006
+    second: StefaninaAnimated_3
+  - first:
+      213: 21300008
+    second: StefaninaAnimated_4
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -25,9 +35,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -36,9 +49,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -59,11 +72,16 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -74,7 +92,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -85,7 +104,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -96,6 +116,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -115,6 +136,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 1a30cd44963cab44aaa3ff09eea86e2d
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -135,6 +157,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 7f92df5d4de7ce9479b3e096586b479f
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -155,6 +178,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 35a96b94e5ed60f469504ef218608f4a
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -175,6 +199,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 67a2e15bf0bbf43468d5225eb3fd14cc
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -195,6 +220,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 2150b73dc55dc23448b989ecf00793e7
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -203,13 +229,20 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 6c34375d031488446910d5c328081a82
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      StefaninaAnimated_3: 21300006
+      StefaninaAnimated_1: 21300002
+      StefaninaAnimated_2: 21300004
+      StefaninaAnimated_0: 21300000
+      StefaninaAnimated_4: 21300008
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

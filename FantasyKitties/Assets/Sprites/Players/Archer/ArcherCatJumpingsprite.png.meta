@@ -1,14 +1,24 @@
 fileFormatVersion: 2
 guid: 5ca5828eb843e07428ddb58b2500a6bc
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: ArcherCatJumpingsprite_0
-    21300002: ArcherCatJumpingsprite_1
-    21300004: ArcherCatJumpingsprite_2
-    21300006: ArcherCatJumpingsprite_3
-    21300008: ArcherCatJumpingsprite_4
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: ArcherCatJumpingsprite_0
+  - first:
+      213: 21300002
+    second: ArcherCatJumpingsprite_1
+  - first:
+      213: 21300004
+    second: ArcherCatJumpingsprite_2
+  - first:
+      213: 21300006
+    second: ArcherCatJumpingsprite_3
+  - first:
+      213: 21300008
+    second: ArcherCatJumpingsprite_4
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -25,9 +35,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -36,9 +49,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -59,11 +72,16 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -74,7 +92,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -85,7 +104,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -96,6 +116,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -115,6 +136,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 0b15edbe7fd16f1409f2eb4ba567e70d
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -135,6 +157,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 35492dcdaafd6b949af467a8f25498cc
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -155,6 +178,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 26f1c03e25863e24f8257e75c1a97058
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -175,6 +199,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 92db78a3939401d4c8c32122066927ff
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -195,6 +220,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 187456648eb8bba4e92a707a0c86213e
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -203,13 +229,20 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 78e689e7110c34e42974db4a03f3c4cd
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ArcherCatJumpingsprite_2: 21300004
+      ArcherCatJumpingsprite_1: 21300002
+      ArcherCatJumpingsprite_4: 21300008
+      ArcherCatJumpingsprite_0: 21300000
+      ArcherCatJumpingsprite_3: 21300006
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

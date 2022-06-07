@@ -1,20 +1,42 @@
 fileFormatVersion: 2
 guid: 94d9403ca285a0245b7916ca64a58313
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: NinjaCatjumping_0
-    21300002: NinjaCatjumping_1
-    21300004: NinjaCatjumping_2
-    21300006: NinjaCatjumping_3
-    21300008: NinjaCatjumping_4
-    21300010: NinjaCatjumping_5
-    21300012: NinjaCatjumping_6
-    21300014: NinjaCatjumping_7
-    21300016: NinjaCatjumping_8
-    21300018: NinjaCatjumping_9
-    21300020: NinjaCatjumping_10
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: NinjaCatjumping_0
+  - first:
+      213: 21300002
+    second: NinjaCatjumping_1
+  - first:
+      213: 21300004
+    second: NinjaCatjumping_2
+  - first:
+      213: 21300006
+    second: NinjaCatjumping_3
+  - first:
+      213: 21300008
+    second: NinjaCatjumping_4
+  - first:
+      213: 21300010
+    second: NinjaCatjumping_5
+  - first:
+      213: 21300012
+    second: NinjaCatjumping_6
+  - first:
+      213: 21300014
+    second: NinjaCatjumping_7
+  - first:
+      213: 21300016
+    second: NinjaCatjumping_8
+  - first:
+      213: 21300018
+    second: NinjaCatjumping_9
+  - first:
+      213: 21300020
+    second: NinjaCatjumping_10
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -31,9 +53,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -42,9 +67,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -65,11 +90,16 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -80,7 +110,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -91,7 +122,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -102,6 +134,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -121,6 +154,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 01b6e94fb27fe2c46a5c450c4b0ea0b8
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -141,6 +175,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 562b9cff221513f408900a28e2184619
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -161,6 +196,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 5ea26eec8d9f7004397e881222f37475
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -181,6 +217,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: d233b4738a051e74b905037b36914319
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -201,6 +238,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8d2a8a137ca751e4698cbf08366f1c8d
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -221,6 +259,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 21565107a1cbc864fa19857ade598b8e
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -241,6 +280,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b0bba76a3cbb3224c9dcef77a298f33f
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
@@ -261,6 +301,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 9fef5088432bcfb4c86a3a8a51bcb766
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
@@ -281,6 +322,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: fe76b84328cb104469140fd300a2e6ab
+      internalID: 21300016
       vertices: []
       indices: 
       edges: []
@@ -301,6 +343,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 3672135da49281e498cef1faf12c42a3
+      internalID: 21300018
       vertices: []
       indices: 
       edges: []
@@ -321,6 +364,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 99422dd1e22d2d04dbf410e29c61af85
+      internalID: 21300020
       vertices: []
       indices: 
       edges: []
@@ -329,13 +373,26 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 0c1def2e2e4e09d4eb1e937531b8f49e
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      NinjaCatjumping_7: 21300014
+      NinjaCatjumping_6: 21300012
+      NinjaCatjumping_9: 21300018
+      NinjaCatjumping_5: 21300010
+      NinjaCatjumping_10: 21300020
+      NinjaCatjumping_3: 21300006
+      NinjaCatjumping_4: 21300008
+      NinjaCatjumping_2: 21300004
+      NinjaCatjumping_1: 21300002
+      NinjaCatjumping_8: 21300016
+      NinjaCatjumping_0: 21300000
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

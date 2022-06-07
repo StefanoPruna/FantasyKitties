@@ -1,15 +1,27 @@
 fileFormatVersion: 2
 guid: 71df366e3b30a8e49a54be297a0d6df6
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: FrogAttackingOrStillsprite_0
-    21300002: FrogAttackingOrStillsprite_1
-    21300004: FrogAttackingOrStillsprite_2
-    21300006: FrogAttackingOrStillsprite_3
-    21300008: FrogAttackingOrStillsprite_4
-    21300010: FrogAttackingOrStillsprite_5
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: FrogAttackingOrStillsprite_0
+  - first:
+      213: 21300002
+    second: FrogAttackingOrStillsprite_1
+  - first:
+      213: 21300004
+    second: FrogAttackingOrStillsprite_2
+  - first:
+      213: 21300006
+    second: FrogAttackingOrStillsprite_3
+  - first:
+      213: 21300008
+    second: FrogAttackingOrStillsprite_4
+  - first:
+      213: 21300010
+    second: FrogAttackingOrStillsprite_5
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -26,9 +38,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -37,9 +52,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -60,11 +75,16 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -75,7 +95,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -86,7 +107,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -97,6 +119,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -116,6 +139,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8d833821e54e825428df0f26532afe46
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -136,6 +160,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: bafce8c754f097543876a81373571fd7
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -156,6 +181,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b478abb4fa9f4f041b105b34559c7646
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -176,6 +202,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 39aa3afe135d9764b9a82afb911db612
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -196,6 +223,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 59365cd2838101f43873f30f2c438a46
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -216,6 +244,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 378292a36cbc4c34a961cf66c2298b0e
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -224,13 +253,21 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 9c49ed6d8c5f6d54abaa151e21eed810
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FrogAttackingOrStillsprite_3: 21300006
+      FrogAttackingOrStillsprite_0: 21300000
+      FrogAttackingOrStillsprite_2: 21300004
+      FrogAttackingOrStillsprite_5: 21300010
+      FrogAttackingOrStillsprite_4: 21300008
+      FrogAttackingOrStillsprite_1: 21300002
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

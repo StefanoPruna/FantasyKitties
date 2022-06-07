@@ -1,17 +1,33 @@
 fileFormatVersion: 2
 guid: d617fb784ec713e4ca47a7acac063f97
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: ArcherCatStandingStillsprite_0
-    21300002: ArcherCatStandingStillsprite_1
-    21300004: ArcherCatStandingStillsprite_2
-    21300006: ArcherCatStandingStillsprite_3
-    21300008: ArcherCatStandingStillsprite_4
-    21300010: ArcherCatStandingStillsprite_5
-    21300012: ArcherCatStandingStillsprite_6
-    21300014: ArcherCatStandingStillsprite_7
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: ArcherCatStandingStillsprite_0
+  - first:
+      213: 21300002
+    second: ArcherCatStandingStillsprite_1
+  - first:
+      213: 21300004
+    second: ArcherCatStandingStillsprite_2
+  - first:
+      213: 21300006
+    second: ArcherCatStandingStillsprite_3
+  - first:
+      213: 21300008
+    second: ArcherCatStandingStillsprite_4
+  - first:
+      213: 21300010
+    second: ArcherCatStandingStillsprite_5
+  - first:
+      213: 21300012
+    second: ArcherCatStandingStillsprite_6
+  - first:
+      213: 21300014
+    second: ArcherCatStandingStillsprite_7
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -28,9 +44,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -39,9 +58,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -62,11 +81,16 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -77,7 +101,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -88,7 +113,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -99,6 +125,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -118,6 +145,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 2ae7b0041a889fe48b2578c705132349
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -138,6 +166,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: dde6123beb2f5764dad51b3feb338818
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -158,6 +187,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8e3a4d2b0fc9539409053addd59a731d
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -178,6 +208,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: f5f16e9d23ff3e64ab1865b64d6658c9
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -198,6 +229,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 1475fc5463d17bb409d4209dacb5dc44
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -218,6 +250,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: ff0f68749abccab4c993fd39142a379b
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -238,6 +271,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: a40645f9f9dc31b4b8bb3214a4e4256c
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
@@ -258,6 +292,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 6c4a9ee5d7284ff49b35beef34edbcb2
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
@@ -266,13 +301,23 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 8142cea741b2ce64f8ebb7edf3f03d69
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ArcherCatStandingStillsprite_0: 21300000
+      ArcherCatStandingStillsprite_7: 21300014
+      ArcherCatStandingStillsprite_5: 21300010
+      ArcherCatStandingStillsprite_2: 21300004
+      ArcherCatStandingStillsprite_6: 21300012
+      ArcherCatStandingStillsprite_4: 21300008
+      ArcherCatStandingStillsprite_3: 21300006
+      ArcherCatStandingStillsprite_1: 21300002
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
