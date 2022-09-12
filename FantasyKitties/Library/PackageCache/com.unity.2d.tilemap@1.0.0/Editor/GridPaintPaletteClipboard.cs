@@ -804,12 +804,12 @@ namespace UnityEditor.Tilemaps
             }
         }
 
-        internal void SetTile(Tilemap tilemapTarget, Vector2Int position, TileBase tile, Color color, Matrix4x4 matrix)
+        public void SetTile(Tilemap tilemapTarget, Vector2Int position, TileBase tile, Color color, Matrix4x4 matrix)
         {
             Vector3Int pos3 = new Vector3Int(position.x, position.y, zPosition);
             tilemapTarget.SetTile(pos3, tile);
             tilemapTarget.SetColor(pos3, color);
-            tilemapTarget.SetTransformMatrix(pos3, tilemapTarget.GetTransformMatrix(pos3) * matrix);
+            tilemapTarget.SetTransformMatrix(pos3, matrix);
         }
 
         protected override void Paint(Vector3Int position)

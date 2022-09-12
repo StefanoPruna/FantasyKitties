@@ -76,7 +76,7 @@ namespace UnityEditor.Tilemaps
             }
         }
 
-        private void LoadDefaultEditorToolTypes()
+        internal void LoadDefaultEditorToolTypes()
         {
             InitializeAllTilemapEditorToolTypes();
 
@@ -153,6 +153,17 @@ namespace UnityEditor.Tilemaps
 
             s_DefaultTilemapEditorTools = editorTools.ToArray();
             return s_DefaultTilemapEditorTools;
+        }
+
+        internal void ClearExistingDefaultTilemapEditorTools()
+        {
+            if (s_DefaultTilemapEditorTools == null)
+                return;
+
+            for (int i = 0; i < s_DefaultTilemapEditorTools.Length; ++i)
+            {
+                s_DefaultTilemapEditorTools[i] = null;
+            }
         }
 
         private void OnDrawDefaultElement(Rect rect, int i, bool isactive, bool isfocused)
@@ -256,7 +267,8 @@ namespace UnityEditor.Tilemaps
             {
                 if (GUILayout.Button(TilemapEditorToolProperties.saveLabel))
                 {
-                    SaveTilemapEditorToolPreferences(m_DefaultTilemapEditorToolTypes);
+                    SaveTilemapEditorToolPreferencesAsset(m_DefaultTilemapEditorToolTypes);
+                    ClearExistingDefaultTilemapEditorTools();
                     m_Changed = false;
                     GridPaintingState.RepaintGridPaintPaletteWindow();
                 }
@@ -270,7 +282,9 @@ namespace UnityEditor.Tilemaps
             }
             if (GUILayout.Button(TilemapEditorToolProperties.resetLabel))
             {
-                ResetTilemapEditorToolPreferences();
+                DeleteTilemapEditorToolPreferencesAsset();
+                ClearExistingDefaultTilemapEditorTools();
+                LoadDefaultEditorToolTypes();
                 m_DefaultTypes.index = -1;
                 m_OtherTypes.index = -1;
                 m_Changed = false;
@@ -279,23 +293,7 @@ namespace UnityEditor.Tilemaps
             EditorGUILayout.EndHorizontal();
         }
 
-        internal void SaveTilemapEditorToolPreferences(List<DefaultTilemapEditorTool> defaultTools)
-        {
-            SaveTilemapEditorToolPreferencesAsset(defaultTools);
-            ClearExistingDefaultTilemapEditorTools();
-            LoadDefaultEditorToolTypes();
-            DeactivateToolIfNotInDefault();
-        }
-
-        internal void ResetTilemapEditorToolPreferences()
-        {
-            DeleteTilemapEditorToolPreferencesAsset();
-            ClearExistingDefaultTilemapEditorTools();
-            LoadDefaultEditorToolTypes();
-            DeactivateToolIfNotInDefault();
-        }
-
-        private static void DeleteTilemapEditorToolPreferencesAsset()
+        internal void DeleteTilemapEditorToolPreferencesAsset()
         {
             if (File.Exists(s_AssetPath))
             {
@@ -303,7 +301,7 @@ namespace UnityEditor.Tilemaps
             }
         }
 
-        private static void SaveTilemapEditorToolPreferencesAsset(List<DefaultTilemapEditorTool> defaultTools)
+        internal void SaveTilemapEditorToolPreferencesAsset(List<DefaultTilemapEditorTool> defaultTools)
         {
             if (defaultTools == null)
                 return;
@@ -327,18 +325,7 @@ namespace UnityEditor.Tilemaps
             InternalEditorUtility.SaveToSerializedFileAndForget(new Object[] { saveAsset }, s_AssetPath, true);
         }
 
-        private static void ClearExistingDefaultTilemapEditorTools()
-        {
-            if (s_DefaultTilemapEditorTools == null)
-                return;
-
-            for (int i = 0; i < s_DefaultTilemapEditorTools.Length; ++i)
-            {
-                s_DefaultTilemapEditorTools[i] = null;
-            }
-        }
-
-        private List<DefaultTilemapEditorTool> LoadTilemapEditorToolPreferencesAsset()
+        internal List<DefaultTilemapEditorTool> LoadTilemapEditorToolPreferencesAsset()
         {
             if (!File.Exists(s_AssetPath))
                 return null;
@@ -351,27 +338,6 @@ namespace UnityEditor.Tilemaps
                     return defaultTools.m_UserDefaultTools;
             }
             return null;
-        }
-
-        private void DeactivateToolIfNotInDefault()
-        {
-            var activeToolType = ToolManager.activeToolType;
-            if (activeToolType == null ||
-                !activeToolType.IsSubclassOf(typeof(TilemapEditorTool)))
-            {
-                return;
-            }
-
-            if (s_DefaultTilemapEditorTools == null || s_DefaultTilemapEditorTools[0] == null)
-                CreateDefaultTilemapEditorTools();
-
-            foreach (var defaultToolType in s_DefaultTilemapEditorTools)
-            {
-                if (activeToolType == defaultToolType.GetType())
-                    return;
-            }
-
-            ToolManager.SetActiveTool(typeof(ViewModeTool));
         }
     }
 }

@@ -1,0 +1,625 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1662941701284615, "dur": 1813839, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662941701284909, "dur": 4529, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662941701289443, "dur": 31703, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662941701321148, "dur": 825555, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662941702146705, "dur": 937969, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662941703084679, "dur": 13774, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662941703099082, "dur": 17, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1662941701888478, "dur": 234983, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662941701889525, "dur": 67225, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662941702101895, "dur": 5668, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662941702107568, "dur": 15876, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662941702108548, "dur": 13571, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662941702130316, "dur": 1690, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662941702129166, "dur": 2882, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662941703099202, "dur": 182, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1662941702188192, "dur":1624, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941702189825, "dur":71, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1662941702189926, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1662941702189945, "dur":496, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1662941702190466, "dur":684, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941702191151, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064271, "dur":407, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064678, "dur":38, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064717, "dur":9, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064726, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064749, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064752, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064764, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064766, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064774, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064775, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064783, "dur":21, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064804, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064817, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064819, "dur":51, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064871, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064872, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064878, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064880, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064887, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064889, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064895, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064896, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064902, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064904, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064910, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064911, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064919, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064920, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064927, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064928, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064935, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064936, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064945, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064960, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703064978, "dur":1714, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1662941702190425, "dur":731, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662941702191158, "dur":4328, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662941702195499, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662941702195505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662941702197094, "dur":442, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662941702197539, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662941702197597, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662941702197793, "dur":9810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662941702207607, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1662941702207790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662941702207857, "dur":300469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1662941702508365, "dur":45651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662941702554020, "dur":786, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662941702554817, "dur":7402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662941702562262, "dur":66991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662941702629258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662941702629266, "dur":7147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662941702636454, "dur":40059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Analytics.Tracker.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662941702676517, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662941702676526, "dur":1369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Analytics.Tracker.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662941702677930, "dur":100148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662941702778086, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662941702778098, "dur":1358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662941702779493, "dur":126745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662941702906244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662941702906253, "dur":1109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662941702907386, "dur":156882, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662941702190793, "dur":427, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662941702191221, "dur":4329, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662941702195553, "dur":35043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1662941702230802, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662941702230826, "dur":1249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1662941702232118, "dur":93821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662941702325943, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662941702326381, "dur":1248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662941702327679, "dur":63665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662941702391350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662941702391358, "dur":2057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662941702393451, "dur":29924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662941702423384, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662941702423396, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662941702424526, "dur":54615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662941702479146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662941702479153, "dur":5747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662941702484940, "dur":37673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662941702522620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662941702522630, "dur":1122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662941702523789, "dur":21356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662941702545154, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662941702545175, "dur":7281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662941702552504, "dur":25885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662941702578396, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662941702578407, "dur":2279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662941702580721, "dur":75963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662941702656690, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662941702656704, "dur":1208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662941702657953, "dur":183450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662941702841407, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662941702841419, "dur":5591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662941702847047, "dur":217237, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662941702190456, "dur":705, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662941702191161, "dur":4355, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662941702195517, "dur":6057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1662941702201579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662941702201747, "dur":22916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1662941702224716, "dur":182047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662941702406767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662941702406775, "dur":17758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662941702424577, "dur":37961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662941702462546, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662941702462557, "dur":1700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662941702464306, "dur":18791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662941702483102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662941702483110, "dur":2545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662941702485699, "dur":33908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662941702519614, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662941702519627, "dur":966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662941702520627, "dur":28999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662941702549632, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662941702549641, "dur":3580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662941702553372, "dur":21199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662941702574578, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662941702574590, "dur":4794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662941702579422, "dur":28097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662941702607524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662941702607534, "dur":1677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662941702609254, "dur":81418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662941702690678, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662941702690689, "dur":6912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662941702697650, "dur":88408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662941702786064, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662941702786075, "dur":1170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662941702787286, "dur":273760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662941703061051, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662941703061059, "dur":3139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662941703064225, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1662941703064228, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662941702190506, "dur":665, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662941702191171, "dur":5213, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662941702196384, "dur":40951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1662941702237341, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662941702237364, "dur":89476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1662941702326889, "dur":43108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662941702370082, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662941702370096, "dur":2952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662941702373091, "dur":29944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662941702403043, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662941702403054, "dur":2081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662941702405172, "dur":42121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662941702447299, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662941702447308, "dur":1197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662941702448540, "dur":58195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662941702506742, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662941702506753, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662941702507926, "dur":54182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662941702562115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662941702562126, "dur":1288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662941702563450, "dur":168122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662941702731578, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662941702731589, "dur":1159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662941702732782, "dur":216662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662941702949448, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662941702949457, "dur":1625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662941702951110, "dur":113160, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662941702190534, "dur":642, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662941702191177, "dur":4442, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662941702195620, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1662941702195782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662941702202414, "dur":15813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1662941702218269, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1662941702218512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662941702218521, "dur":3059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1662941702221625, "dur":148693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662941702370323, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662941702370404, "dur":6492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662941702376935, "dur":67158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662941702444098, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662941702444107, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662941702445192, "dur":28018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662941702473216, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662941702473235, "dur":2299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662941702475650, "dur":78072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662941702553726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662941702553736, "dur":4457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662941702558233, "dur":38624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662941702596861, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662941702596869, "dur":1037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662941702597938, "dur":79344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662941702677286, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662941702677294, "dur":23530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662941702700853, "dur":166550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662941702867407, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662941702867416, "dur":1289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662941702868744, "dur":195528, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662941702190557, "dur":624, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662941702191181, "dur":4553, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662941702195735, "dur":130162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1662941702325901, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662941702325953, "dur":3668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1662941702329699, "dur":43743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662941702373447, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662941702373457, "dur":3984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662941702377483, "dur":20184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662941702397674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662941702397684, "dur":6932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662941702404769, "dur":43215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662941702447989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662941702447997, "dur":1408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662941702449442, "dur":24538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662941702474667, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662941702474679, "dur":2061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662941702476782, "dur":1647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662941702478433, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662941702478466, "dur":5918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662941702484438, "dur":51730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662941702536176, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662941702536187, "dur":1343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662941702537568, "dur":63320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662941702600895, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662941702600907, "dur":1341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662941702602284, "dur":25586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662941702627876, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662941702627886, "dur":14207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662941702642130, "dur":63699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662941702705835, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662941702705847, "dur":997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662941702706876, "dur":212050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662941702918934, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662941702918946, "dur":1964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662941702920935, "dur":143344, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662941702190586, "dur":599, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662941702191185, "dur":4311, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662941702195498, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1662941702195743, "dur":23, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662941702198017, "dur":17407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1662941702215464, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1662941702215597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662941702215607, "dur":110219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1662941702325879, "dur":48316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662941702374199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662941702374207, "dur":2290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662941702376537, "dur":32962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662941702409507, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662941702409521, "dur":2364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662941702411935, "dur":46159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662941702458101, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662941702458114, "dur":1701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662941702459859, "dur":23102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662941702482968, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662941702482981, "dur":2623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662941702485646, "dur":52389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662941702538039, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662941702538049, "dur":3503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662941702541690, "dur":25893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662941702567588, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662941702567597, "dur":1043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662941702568678, "dur":62105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662941702630789, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662941702630799, "dur":5907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662941702636764, "dur":104475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Analytics.StandardEvents.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662941702741246, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662941702741258, "dur":1025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Analytics.StandardEvents.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662941702742319, "dur":38522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662941702780846, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662941702780856, "dur":949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662941702781839, "dur":44692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662941702826535, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662941702826542, "dur":1649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662941702828228, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1662941702828264, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662941702828269, "dur":777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1662941702829080, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1662941702829118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662941702829123, "dur":13638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1662941702842801, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1662941702842839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662941702842844, "dur":871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1662941702843747, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1662941702843789, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662941702843799, "dur":1054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1662941702844894, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1662941702844934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662941702844964, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1662941702846014, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1662941702846143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662941702846150, "dur":854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1662941702847040, "dur":217224, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662941702190616, "dur":573, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662941702191190, "dur":4303, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662941702195547, "dur":130331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1662941702325882, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662941702326355, "dur":1007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1662941702327403, "dur":52705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662941702380115, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662941702380128, "dur":2101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662941702382273, "dur":135454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662941702517731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662941702517741, "dur":2200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662941702519987, "dur":28371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662941702548366, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662941702548378, "dur":1598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662941702550017, "dur":142729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662941702692751, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662941702692760, "dur":6940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662941702699743, "dur":32426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662941702732174, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662941702732181, "dur":1240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662941702733454, "dur":167525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662941702900986, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662941702900998, "dur":1703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662941702902743, "dur":161535, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662941702190650, "dur":544, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662941702191194, "dur":4998, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662941702196193, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1662941702196420, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662941702197928, "dur":27710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1662941702225680, "dur":583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties.exe" }}
+,{ "pid":12345, "tid":9, "ts":1662941702226267, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662941702226276, "dur":1687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties.exe" }}
+,{ "pid":12345, "tid":9, "ts":1662941702228005, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1662941702228157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662941702228385, "dur":103161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1662941702331596, "dur":102952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662941702434559, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662941702434570, "dur":1096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662941702435708, "dur":30998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662941702466710, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662941702467534, "dur":1708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662941702469285, "dur":85798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662941702555088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662941702555094, "dur":5853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662941702560987, "dur":34383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662941702595375, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662941702595441, "dur":978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662941702596454, "dur":29326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662941702625787, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662941702625798, "dur":8685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662941702634516, "dur":24550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662941702659071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662941702659080, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662941702660072, "dur":147780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662941702807857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662941702807866, "dur":1157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1662941702809057, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":9, "ts":1662941702809167, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662941702809532, "dur":860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":9, "ts":1662941702810426, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1662941702810464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662941702810518, "dur":1014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1662941702811567, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1662941702811607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662941702811614, "dur":16083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1662941702827738, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":9, "ts":1662941702827782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662941702827788, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":9, "ts":1662941702828948, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":9, "ts":1662941702828985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662941702828991, "dur":1747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":9, "ts":1662941702830777, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1662941702830814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662941702830821, "dur":976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1662941702831831, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1662941702831941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662941702832013, "dur":853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1662941702832903, "dur":8008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1662941702840920, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662941702840933, "dur":1095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1662941702842067, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1662941702842107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662941702842113, "dur":911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1662941702843058, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/level2" }}
+,{ "pid":12345, "tid":9, "ts":1662941702843098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662941702843103, "dur":925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/level2" }}
+,{ "pid":12345, "tid":9, "ts":1662941702844062, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1662941702844097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662941702844102, "dur":922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1662941702845057, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1662941702845093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662941702845098, "dur":910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1662941702846040, "dur":218227, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662941702190670, "dur":528, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662941702191198, "dur":4768, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662941702195968, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1662941702196091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662941702198186, "dur":20107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1662941702218336, "dur":53592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662941702271936, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662941702272282, "dur":58117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662941702330452, "dur":42495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662941702372957, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662941702372969, "dur":3609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662941702376623, "dur":66478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662941702443108, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662941702443119, "dur":1152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662941702444309, "dur":25320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662941702469633, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662941702469643, "dur":3392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662941702473088, "dur":1375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662941702474738, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662941702474747, "dur":1942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662941702476730, "dur":54287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662941702531025, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662941702531037, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662941702532245, "dur":87771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662941702620020, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662941702620030, "dur":3876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662941702623946, "dur":37337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662941702661287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662941702661295, "dur":3803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662941702665132, "dur":151278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662941702816420, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662941702816432, "dur":6905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1662941702823378, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":10, "ts":1662941702823415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662941702823424, "dur":1222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":10, "ts":1662941702824684, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":10, "ts":1662941702824721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662941702824730, "dur":1569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":10, "ts":1662941702826341, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1662941702826384, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662941702826392, "dur":34501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1662941702860933, "dur":203341, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662941702190693, "dur":508, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662941702191201, "dur":4717, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662941702195921, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1662941702196064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662941702197972, "dur":313024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1662941702511039, "dur":55593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662941702566639, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662941702566653, "dur":3529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662941702570223, "dur":59272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662941702629498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662941702629505, "dur":6455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662941702635995, "dur":97524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Services.Analytics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662941702733523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662941702733529, "dur":860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Services.Analytics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662941702734420, "dur":132174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662941702866602, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662941702866614, "dur":1388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662941702868037, "dur":196252, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662941702190719, "dur":486, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662941702191206, "dur":4403, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662941702195609, "dur":6330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1662941702201944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662941702202187, "dur":263717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1662941702465943, "dur":1481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662941702467428, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662941702467437, "dur":5607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662941702473092, "dur":1367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662941702474736, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662941702474745, "dur":2042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662941702476819, "dur":1034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662941702477857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662941702477865, "dur":1031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662941702478937, "dur":37597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662941702516540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662941702516550, "dur":1068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662941702517657, "dur":40049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662941702557711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662941702557720, "dur":2112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662941702559873, "dur":50173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662941702610050, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662941702610061, "dur":1177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662941702611284, "dur":10201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662941702621491, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662941702621502, "dur":12782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662941702634331, "dur":41317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662941702675655, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662941702675667, "dur":18649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662941702694357, "dur":39645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662941702734007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662941702734038, "dur":1186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662941702735264, "dur":121603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662941702856876, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662941702856890, "dur":1610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662941702858542, "dur":205723, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662941702190738, "dur":471, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662941702191209, "dur":4289, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662941702195499, "dur":130439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1662941702325942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662941702325960, "dur":1326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1662941702327350, "dur":47841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662941702375196, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662941702375205, "dur":2313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662941702377558, "dur":37605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662941702415171, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662941702415196, "dur":1724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662941702416968, "dur":27628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662941702444600, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662941702444608, "dur":897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662941702445545, "dur":28300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662941702474479, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662941702474493, "dur":2965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662941702477499, "dur":1760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662941702479264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662941702479271, "dur":6395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662941702485709, "dur":54995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662941702540712, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662941702540724, "dur":1341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662941702542100, "dur":51107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662941702593214, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662941702593225, "dur":1108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662941702594372, "dur":285975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662941702880351, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1662941702880360, "dur":1142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":13, "ts":1662941702881551, "dur":182720, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662941702190759, "dur":454, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662941702191213, "dur":4696, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662941702195913, "dur":38871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1662941702234792, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662941702234819, "dur":91861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1662941702326718, "dur":30132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662941702356854, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662941702356862, "dur":1792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662941702358721, "dur":31205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662941702389933, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662941702389945, "dur":1983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662941702391963, "dur":210979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662941702602946, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662941702602958, "dur":3328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662941702606323, "dur":53818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662941702660145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662941702660153, "dur":22212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662941702682406, "dur":122574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662941702804988, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662941702805031, "dur":1329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662941702806437, "dur":71587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662941702878030, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1662941702878041, "dur":1086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":14, "ts":1662941702879153, "dur":185123, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1662941702190783, "dur":434, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1662941702191217, "dur":4561, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1662941702195781, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1662941702195891, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1662941702202322, "dur":124639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1662941702327005, "dur":48947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1662941702375957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1662941702375966, "dur":5395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1662941702381402, "dur":48094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1662941702429504, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1662941702429516, "dur":1046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1662941702430602, "dur":44493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1662941702475099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1662941702475107, "dur":2360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1662941702477502, "dur":31702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1662941702509208, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1662941702509219, "dur":6000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1662941702515275, "dur":102902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1662941702618184, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1662941702618194, "dur":1330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1662941702619564, "dur":4881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":15, "ts":1662941702624450, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1662941702624462, "dur":13891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":15, "ts":1662941702638468, "dur":1746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":15, "ts":1662941702640221, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1662941702640234, "dur":1216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":15, "ts":1662941702641532, "dur":245492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":15, "ts":1662941702887032, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1662941702887047, "dur":2979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":15, "ts":1662941702890061, "dur":174222, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662941702190477, "dur":689, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662941702191166, "dur":4812, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662941702195979, "dur":27258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1662941702223523, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662941702223547, "dur":1202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1662941702225001, "dur":103473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":16, "ts":1662941702328478, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662941702328486, "dur":3685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":16, "ts":1662941702332215, "dur":24405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662941702356628, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662941702356818, "dur":1760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662941702358624, "dur":44457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662941702403112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662941702403119, "dur":2305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662941702405477, "dur":117363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662941702522845, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662941702522854, "dur":9986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662941702532876, "dur":23948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662941702556830, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662941702556842, "dur":3072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662941702559953, "dur":44819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662941702604777, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662941702604787, "dur":1627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662941702606457, "dur":22676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662941702629138, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662941702629149, "dur":6342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662941702635547, "dur":951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662941702636502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662941702636512, "dur":4584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662941702641132, "dur":91012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662941702732148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662941702732155, "dur":1065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662941702733252, "dur":57890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662941702791149, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662941702791160, "dur":1192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662941702792387, "dur":184026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662941702976419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1662941702976428, "dur":1260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makem/Documents/MyGames/FantasyKitties_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1662941702977734, "dur":86553, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662941703068367, "dur":2707, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1662941703099466, "dur": 957, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662941703099066, "dur": 1381, "ph": "X", "name": "Write chrome-trace events", "args": {} },
